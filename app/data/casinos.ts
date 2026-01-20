@@ -99,66 +99,37 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
 
-  {
-    name: "Voodoo Dreams",
-    logo: "voodooDreams",
-    bonus: "100% Bonus up to £50 + 50 Real Money Free Spins",
-    url: "https://www.voodoocasino.com"
-  },
-  {
-    name: "Pub Casino",
-    logo: "pubCasino",
-    bonus: "Welcome Bonus Get 100% Up To £100",
-    url: "https://www.pubcasino.com"
-  },
-  {
-    name: "Ladbrokes",
-    logo: "ladbrokes",
-    bonus: "Play £10 Get 200 Free Spins",
-    url: "https://www.ladbrokes.com"
-  },
-  {
-    name: "Midnite",
-    logo: "midnite",
-    bonus: "Bet £20 Get 100 Free Spins",
-    url: "https://www.midnite.com"
-  },
-  {
-    name: "Spinland",
-    logo: "spinland",
-    bonus: "200% Bonus up to £3,000 + 50 Free Spins",
-    url: "https://www.spinland.com"
-  },
+
   {
     name: "Karamba",
-    logo: "karamba",
+    logo: "/karamba.svg",
     bonus: "100% Bonus up to £200 + 20 Free Spins",
     url: "https://www.karamba.com"
   },
-  {
-    name: "Coral Casino",
-    logo: "coral",
-    bonus: "Play £10 Get 200 Free Spins",
-    url: "https://www.coral.co.uk"
-  },
-  {
-    name: "LottoGo Casino",
-    logo: "lottogo",
-    bonus: "100% Bonus Up to £200 + 300 Bonus Spins",
-    url: "https://www.lottogo.com"
-  },
-  {
-    name: "MrQ Casino",
-    logo: "mrq",
-    bonus: "Spend £10 Get 60 Spins No Wagering On Winnings",
-    url: "https://www.mrq.com"
-  },
-  {
-    name: "NetBet",
-    logo: "netbet",
-    bonus: "Up to 500 Free Spins On First Deposit",
-    url: "https://www.netbet.co.uk"
-  }
+  // {
+  //   name: "Coral Casino",
+  //   logo: "coral",
+  //   bonus: "Play £10 Get 200 Free Spins",
+  //   url: "https://www.coral.co.uk"
+  // },
+  // {
+  //   name: "LottoGo Casino",
+  //   logo: "lottogo",
+  //   bonus: "100% Bonus Up to £200 + 300 Bonus Spins",
+  //   url: "https://www.lottogo.com"
+  // },
+  // {
+  //   name: "MrQ Casino",
+  //   logo: "mrq",
+  //   bonus: "Spend £10 Get 60 Spins No Wagering On Winnings",
+  //   url: "https://www.mrq.com"
+  // },
+  // {
+  //   name: "NetBet",
+  //   logo: "netbet",
+  //   bonus: "Up to 500 Free Spins On First Deposit",
+  //   url: "https://www.netbet.co.uk"
+  // }
 ];
 
 // Generate casinos with auto-calculated id, rating, and badge
