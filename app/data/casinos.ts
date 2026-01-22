@@ -45,21 +45,35 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
-    name: "WinPlace",
-    logo: "/winplace.svg",
-    bonus: "100% bonus of up to £/€ 4,000 + 100 FREE SPINS",
-    url: "https://any-site1.com/KmJFBtpf",
+    name: "Agent No Wager",
+    logo: "/agentnowager.svg",
+    bonus: "Up to 90 FS + 45% Without Wager!",
+    url: "https://any-site1.com/ht2pbwVK",
     isMobile: true
   },
   {
-    name: "SlotLair",
-    logo: "/slotlair.svg",
-    bonus: "100% up to €/£ 3,000 + 100 FREE SPINS",
-    url: "https://any-site1.com/qqr6XvNP",
+    name: "VegasHero",
+    logo: "/VegasHero.png",
+    bonus: "300% up to €500 + 300 FS",
+    url: "https://any-site1.com/sF24tnhr",
     isMobile: true
   },
 
+  // {
+  //   name: "SlotLair",
+  //   logo: "/slotlair.svg",
+  //   bonus: "100% up to €/£ 3,000 + 100 FREE SPINS",
+  //   url: "https://any-site1.com/qqr6XvNP",
+  //   isMobile: true
+  // },
 
+  // {
+  //   name: "WinPlace",
+  //   logo: "/winplace.svg",
+  //   bonus: "100% bonus of up to £/€ 4,000 + 100 FREE SPINS",
+  //   url: "https://any-site1.com/KmJFBtpf",
+  //   isMobile: true
+  // },
   // {
   //   name: "LuckyWave",
   //   logo: "/luckywave.svg",
