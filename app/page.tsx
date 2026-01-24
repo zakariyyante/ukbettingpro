@@ -14,7 +14,7 @@ export default function Home() {
   const exclusiveCasino = casinos.find(casino => casino.name === 'HotLoot') || mobileCasinos[0];
   
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-purple-950 to-slate-950">
+    <div className="min-h-screen bg-black">
       {/* Mobile Casino Modal - Shows when gclid is present */}
       <MobileCasinoModal mobileCasinos={mobileCasinos} />
       
@@ -25,21 +25,32 @@ export default function Home() {
       <Header />
 
       {/* Hero Section - Compact for Mobile */}
-      <section className="container mx-auto px-4 py-4 sm:py-8 lg:py-16 text-center">
-        <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white mb-2 sm:mb-4 lg:mb-6">
-          Best Online UK Casino Sites 2026
-        </h2>
-        <p className="text-base sm:text-lg lg:text-xl text-gray-300 mb-4 sm:mb-6 lg:mb-12">
-          Compare The Best Online Casino UK Sites
-        </p>
+      <section className="container mx-auto px-4 py-6 sm:py-10 lg:py-16 text-center">
+        <div className="mx-auto max-w-5xl rounded-3xl border border-white/10 bg-white/5 px-6 py-6 sm:py-10 shadow-xl backdrop-blur">
+          <p className="text-xs sm:text-sm uppercase tracking-[0.3em] text-emerald-400 font-semibold mb-3">
+            Trusted UK Casino Comparison
+          </p>
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-3 sm:mb-4">
+             Online UK Casino Sites 2026
+          </h2>
+          <p className="text-sm sm:text-lg lg:text-xl text-gray-400 mb-4 sm:mb-6">
+            Compare brands
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:text-sm text-gray-400">
+            <span className="rounded-full bg-emerald-500/20 px-3 py-1 font-semibold text-emerald-400">Licensed &amp; Verified</span>
+            <span className="rounded-full bg-orange-500/20 px-3 py-1 font-semibold text-orange-400">2026 Bonus Guide</span>
+            <span className="rounded-full bg-sky-500/20 px-3 py-1 font-semibold text-sky-400">Mobile First Picks</span>
+          </div>
+        </div>
       </section>
 
       {/* Main Content */}
       <section id="casinos" className="container mx-auto px-4 pb-16">
         <div className="mb-4 sm:mb-6 lg:mb-12 text-center">
-          <h3 className="text-xl sm:text-2xl lg:text-4xl font-bold text-yellow-400 mb-2 sm:mb-4">
-            OUR TOP PICKS
+          <h3 className="text-xl sm:text-2xl lg:text-4xl font-extrabold text-emerald-400 mb-2 sm:mb-4 tracking-wide">
+            Our Top Picks
           </h3>
+          <p className="text-sm sm:text-base text-gray-500">Updated weekly based on payout speed and player support.</p>
         </div>
 
         {/* Casino Card */}
@@ -50,30 +61,30 @@ export default function Home() {
         </div>
 
         {/* Disclaimer */}
-        <div className="mt-8 sm:mt-12 lg:mt-16 bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 sm:p-4 lg:p-6 max-w-6xl mx-auto">
-          <p className="text-gray-300 text-xs sm:text-sm text-center">
+        <div className="mt-8 sm:mt-12 lg:mt-16 bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4 lg:p-6 max-w-6xl mx-auto shadow-sm">
+          <p className="text-gray-400 text-xs sm:text-sm text-center">
             <strong>New customers only.</strong> 18+. T&Cs apply. BeGambleAware.org. Please play responsibly.
           </p>
         </div>
       </section>
 
       {/* About Section */}
-      <section id="about" className="bg-slate-900/50 py-8 sm:py-12 lg:py-16">
+      <section id="about" className="bg-zinc-950 py-8 sm:py-12 lg:py-16 border-y border-white/10">
         <div className="container mx-auto px-4 max-w-6xl">
-          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-yellow-400 mb-4 sm:mb-6 lg:mb-8 text-center">
+          <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white mb-4 sm:mb-6 lg:mb-8 text-center">
             About Our Casino Comparison
           </h3>
           
-          <div className="bg-slate-800/50 rounded-lg p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8 border border-purple-500/20">
+          <div className="bg-white/5 rounded-2xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8 border border-white/10 shadow-sm">
             <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-3 sm:mb-4">
               Why Trust Our Reviews?
             </h4>
-            <p className="text-gray-300 mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed">
+            <p className="text-gray-400 mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed">
               We provide independent, unbiased casino reviews to help UK players find safe and 
               reputable online casinos. Our team evaluates each casino based on licensing, game 
               variety, bonuses, payment methods, and customer support.
             </p>
-            <ul className="space-y-2 text-gray-300 text-sm sm:text-base">
+            <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
               <li className="flex items-start gap-2">
                 <span className="text-emerald-400 mt-1">✓</span>
                 <span>All casinos are licensed by the UK Gambling Commission</span>
@@ -89,8 +100,8 @@ export default function Home() {
             </ul>
           </div>
 
-          <div id="guide" className="bg-slate-800/50 rounded-lg p-4 sm:p-6 lg:p-8 border border-purple-500/20">
-            <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-yellow-400 mb-3 sm:mb-4">
+          <div id="guide" className="bg-zinc-900 rounded-2xl p-4 sm:p-6 lg:p-8 border border-white/10 shadow-lg">
+            <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">
               Responsible Gambling
             </h4>
             <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-3 sm:mb-4">
@@ -99,12 +110,12 @@ export default function Home() {
             </p>
             <ul className="space-y-2 text-gray-300 text-sm sm:text-base">
               <li>• <strong>BeGambleAware:</strong> Visit{' '}
-                <a href="https://www.begambleaware.org" className="text-purple-400 hover:text-purple-300 underline">
+                <a href="https://www.begambleaware.org" className="text-emerald-400 hover:text-emerald-300 underline">
                   begambleaware.org
                 </a>
               </li>
               <li>• <strong>GamCare:</strong> Call 0808 8020 133 or visit{' '}
-                <a href="https://www.gamcare.org.uk" className="text-purple-400 hover:text-purple-300 underline">
+                <a href="https://www.gamcare.org.uk" className="text-emerald-400 hover:text-emerald-300 underline">
                   gamcare.org.uk
                 </a>
               </li>
@@ -115,7 +126,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer id="contact" className="bg-slate-900 border-t border-purple-500/20 py-6 sm:py-8 lg:py-12">
+      <footer id="contact" className="bg-black border-t border-white/10 py-6 sm:py-8 lg:py-12">
         <div className="container mx-auto px-4 max-w-6xl">
           {/* Footer Logo */}
           <div className="flex justify-center mb-6 sm:mb-8">
@@ -125,23 +136,23 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8 mb-6 sm:mb-8">
             <div>
               <h5 className="text-white font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Quick Links</h5>
-              <ul className="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
-                <li><a href="#" className="hover:text-purple-400">Home</a></li>
-                <li><a href="#casinos" className="hover:text-purple-400">Casinos</a></li>
+              <ul className="space-y-1 sm:space-y-2 text-slate-400 text-xs sm:text-sm">
+                <li><a href="#" className="hover:text-emerald-300">Home</a></li>
+                <li><a href="#casinos" className="hover:text-emerald-300">Casinos</a></li>
                 {/*<li><a href="#guide" className="hover:text-purple-400">Guide</a></li>*/}
               </ul>
             </div>
             <div>
               <h5 className="text-white font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Legal</h5>
-              <ul className="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
-                <li><a href="/privacy" className="hover:text-purple-400">Privacy</a></li>
-                <li><a href="/terms" className="hover:text-purple-400">Terms</a></li>
-                <li><a href="#about" className="hover:text-purple-400">About Us</a></li>
+              <ul className="space-y-1 sm:space-y-2 text-slate-400 text-xs sm:text-sm">
+                <li><a href="/privacy" className="hover:text-emerald-300">Privacy</a></li>
+                <li><a href="/terms" className="hover:text-emerald-300">Terms</a></li>
+                <li><a href="#about" className="hover:text-emerald-300">About Us</a></li>
               </ul>
             </div>
             <div className="col-span-2">
               <h5 className="text-white font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Disclaimer</h5>
-              <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              <p className="text-slate-400 text-xs sm:text-sm leading-relaxed">
                 This is an information-based comparison website. All casinos listed are licensed 
                 by the UK Gambling Commission. Gambling should be fun, not a way to make money. 
                 Only gamble with money you can afford to lose.
@@ -150,11 +161,11 @@ export default function Home() {
           </div>
           
           <div className="mt-6 sm:mt-10 flex flex-col items-center gap-4">
-            <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wide">
+            <p className="text-slate-400 text-xs sm:text-sm uppercase tracking-wide">
               Responsible Gambling
             </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
-              <div className="bg-white/5 rounded-lg px-3 py-2 border border-purple-500/20">
+              <div className="bg-white/5 rounded-lg px-3 py-2 border border-white/10">
                 <svg width="48" height="48" viewBox="0 0 48 48" aria-label="18+ icon" role="img" className="w-10 h-10 text-slate-900">
                   <circle cx="24" cy="24" r="23" fill="#d9d9d9" />
                   <text x="24" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#000">
@@ -166,7 +177,7 @@ export default function Home() {
                 href="https://www.gamstop.co.uk" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-white/5 rounded-lg px-4 py-3 border border-purple-500/20 hover:border-purple-400/50 transition-colors"
+                className="bg-white/5 rounded-lg px-4 py-3 border border-white/10 hover:border-emerald-300/60 transition-colors"
                 aria-label="Visit GamStop"
               >
                 <svg width="180" height="60" viewBox="0 0 180 60" role="img" aria-label="GAMSTOP">
@@ -188,7 +199,7 @@ export default function Home() {
                 href="https://www.gambleaware.org" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-white/5 rounded-lg px-4 py-3 border border-purple-500/20 hover:border-purple-400/50 transition-colors"
+                className="bg-white/5 rounded-lg px-4 py-3 border border-white/10 hover:border-emerald-300/60 transition-colors"
                 aria-label="Visit GambleAware"
               >
                 <svg width="220" height="42" viewBox="0 0 320 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Safer Gambling">
@@ -216,7 +227,7 @@ export default function Home() {
                 href="https://www.gamcare.org.uk" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-white/5 rounded-lg px-4 py-3 border border-purple-500/20 hover:border-purple-400/50 transition-colors"
+                className="bg-white/5 rounded-lg px-4 py-3 border border-white/10 hover:border-emerald-300/60 transition-colors"
                 aria-label="Visit GamCare"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="GamCare">
@@ -239,9 +250,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center mt-6">
-            <p className="text-gray-400 text-xs sm:text-sm">
-              © 2026 casinofunzone1.com. For educational purposes only. 18+ only. Please gamble responsibly.
+          <div className="border-t border-white/10 pt-4 sm:pt-6 text-center mt-6">
+            <p className="text-gray-500 text-xs sm:text-sm">
+              © 2026 casinouk2026.com. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
           </div>
         </div>

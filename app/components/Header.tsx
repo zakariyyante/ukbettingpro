@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-slate-900/50 backdrop-blur-sm border-b border-purple-500/20 sticky top-0 z-40">
+    <header className="sticky top-0 z-40 bg-black/90 backdrop-blur-md border-b border-white/10">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
@@ -30,7 +30,7 @@ export default function Header() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-white hover:text-yellow-400 transition-colors font-medium"
+                className="text-white hover:text-emerald-400 transition-colors font-semibold tracking-wide text-sm"
               >
                 {link.name}
               </a>
@@ -40,7 +40,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden text-white hover:text-yellow-400 transition-colors p-2"
+            className="lg:hidden text-white hover:text-emerald-400 transition-colors p-2"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -53,14 +53,14 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden pb-4 border-t border-purple-500/20 mt-2 pt-4">
+          <nav className="lg:hidden pb-4 border-t border-white/10 mt-2 pt-4">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="text-white hover:text-yellow-400 transition-colors font-medium py-2"
+                  className="text-white hover:text-emerald-400 transition-colors font-semibold py-2"
                 >
                   {link.name}
                 </a>

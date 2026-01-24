@@ -2,7 +2,7 @@ import Logo from './Logo';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-slate-900 border-t border-purple-500/20 py-6 sm:py-8 lg:py-12">
+    <footer id="contact" className="bg-black border-t border-white/10 py-6 sm:py-8 lg:py-12">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex justify-center mb-6 sm:mb-8">
           <Logo />
@@ -12,17 +12,17 @@ export default function Footer() {
           <div>
             <h5 className="text-white font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Quick Links</h5>
             <ul className="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
-              <li><a href="#" className="hover:text-purple-400">Home</a></li>
-              <li><a href="#casinos" className="hover:text-purple-400">Casinos</a></li>
+              <li><a href="#" className="hover:text-emerald-400">Home</a></li>
+              <li><a href="#casinos" className="hover:text-emerald-400">Casinos</a></li>
               {/*<li><a href="#guide" className="hover:text-purple-400">Guide</a></li>*/}
             </ul>
           </div>
           <div>
             <h5 className="text-white font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Legal</h5>
             <ul className="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
-              <li><a href="/privacy" className="hover:text-purple-400">Privacy</a></li>
-              <li><a href="/terms" className="hover:text-purple-400">Terms</a></li>
-              <li><a href="#about" className="hover:text-purple-400">About Us</a></li>
+              <li><a href="/privacy" className="hover:text-emerald-400">Privacy</a></li>
+              <li><a href="/terms" className="hover:text-emerald-400">Terms</a></li>
+              <li><a href="#about" className="hover:text-emerald-400">About Us</a></li>
             </ul>
           </div>
           <div className="col-span-2">
@@ -40,7 +40,7 @@ export default function Footer() {
             Responsible Gambling
           </p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-8">
-            <div className="bg-white/5 rounded-lg px-3 py-2 border border-purple-500/20">
+            <div className="bg-white/5 rounded-lg px-3 py-2 border border-white/10">
               <svg width="48" height="48" viewBox="0 0 48 48" aria-label="18+ icon" role="img" className="w-10 h-10 text-slate-900">
                 <circle cx="24" cy="24" r="23" fill="#d9d9d9" />
                 <text x="24" y="28" textAnchor="middle" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#000">
@@ -52,7 +52,7 @@ export default function Footer() {
               href="https://www.gamstop.co.uk" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white/5 rounded-lg px-4 py-3 border border-purple-500/20 hover:border-purple-400/50 transition-colors"
+              className="bg-white/5 rounded-lg px-4 py-3 border border-white/10 hover:border-emerald-300/60 transition-colors"
               aria-label="Visit GamStop"
             >
               <svg width="180" height="60" viewBox="0 0 180 60" role="img" aria-label="GAMSTOP">
@@ -68,7 +68,7 @@ export default function Footer() {
               href="https://www.gambleaware.org" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white/5 rounded-lg px-4 py-3 border border-purple-500/20 hover:border-purple-400/50 transition-colors"
+              className="bg-white/5 rounded-lg px-4 py-3 border border-white/10 hover:border-emerald-300/60 transition-colors"
               aria-label="Visit GambleAware"
             >
               <svg width="220" height="42" viewBox="0 0 320 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Safer Gambling">
@@ -96,7 +96,7 @@ export default function Footer() {
               href="https://www.gamcare.org.uk" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-white/5 rounded-lg px-4 py-3 border border-purple-500/20 hover:border-purple-400/50 transition-colors"
+              className="bg-white/5 rounded-lg px-4 py-3 border border-white/10 hover:border-emerald-300/60 transition-colors"
               aria-label="Visit GamCare"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="220" height="56" viewBox="0 0 220 56" role="img" aria-label="GamCare">
@@ -117,9 +117,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center mt-6">
-          <p className="text-gray-400 text-xs sm:text-sm">
-            © 2026 casinofunzone1.com. For educational purposes only. 18+ only. Please gamble responsibly.
+        <div className="border-t border-white/10 pt-4 sm:pt-6 text-center mt-6">
+          <p className="text-gray-500 text-xs sm:text-sm">
+            © 2026 casinouk2026.com. For educational purposes only. 18+ only. Please gamble responsibly.
           </p>
         </div>
       </div>

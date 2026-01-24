@@ -39,20 +39,20 @@ export default function MobileCasinoModal({ mobileCasinos }: MobileCasinoModalPr
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm overflow-y-auto">
-      <div className="w-full min-h-screen bg-gradient-to-br from-slate-900 to-slate-800">
+    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm overflow-y-auto">
+      <div className="w-full min-h-screen bg-black">
         {/* Header - Menu bar at top */}
         <Header />
 
 
 
         {/* Hero Section */}
-        <div className="bg-gradient-to-r from-purple-900/95 to-slate-900/95 border-b border-purple-500/30 px-4 sm:px-6 py-3 sm:py-4">
+        <div className="bg-gray-800 border-b border-white/10 px-4 sm:px-6 py-4 sm:py-6 backdrop-blur">
           <div className="container mx-auto text-center">
-            <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-yellow-400 mb-2">
-              🎰 New Casino Sites with Fast Withdrawal 2026
+            <h2 className="text-xl sm:text-2xl lg:text-4xl font-extrabold text-white mb-2">
+              🎰 New Casino Sites 2026
             </h2>
-            <p className="text-sm sm:text-base lg:text-lg text-gray-300">
+            <p className="text-sm sm:text-base lg:text-lg text-gray-400">
               Check the best casinos in UK
             </p>
           </div>
@@ -73,8 +73,8 @@ export default function MobileCasinoModal({ mobileCasinos }: MobileCasinoModalPr
           </div>
 
           {/* Disclaimer */}
-          <div className="mt-6 sm:mt-8 bg-purple-900/30 border border-purple-500/30 rounded-lg p-3 sm:p-4 max-w-6xl mx-auto">
-            <p className="text-gray-300 text-xs sm:text-sm text-center">
+          <div className="mt-6 sm:mt-8 bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4 max-w-6xl mx-auto shadow-sm">
+            <p className="text-gray-400 text-xs sm:text-sm text-center">
               <strong>New customers only.</strong> 18+. T&Cs apply. BeGambleAware.org. Please play responsibly.
             </p>
           </div>

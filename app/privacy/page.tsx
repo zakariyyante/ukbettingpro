@@ -8,24 +8,24 @@ export const metadata = {
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-purple-950 to-slate-950">
+    <div className="min-h-screen bg-black">
       <Header />
       
       <main className="container mx-auto px-4 py-8 sm:py-12 lg:py-16 max-w-4xl">
-        <div className="bg-slate-900/50 rounded-lg p-6 sm:p-8 lg:p-12 border border-purple-500/20">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-yellow-400 mb-6 sm:mb-8">
+        <div className="bg-zinc-900 rounded-3xl p-6 sm:p-8 lg:p-12 border border-white/10 shadow-lg">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6 sm:mb-8">
             Privacy Policy
           </h1>
           
-          <div className="text-gray-300 text-sm sm:text-base leading-relaxed space-y-6">
-            <p className="text-gray-400 italic">
+          <div className="text-gray-400 text-sm sm:text-base leading-relaxed space-y-6">
+            <p className="text-gray-500 italic">
               Last updated: {new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Introduction</h2>
               <p>
-                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website casinofunzone1.com
+                Welcome to Casino Top Choices ("we," "our," or "us"). We operate the website casinouk2026.com
                 (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard 
                 your information when you visit our website.
               </p>
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Information We Collect</h2>
               
-              <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 mt-4">2.1 Information You Provide</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-200 mb-3 mt-4">2.1 Information You Provide</h3>
               <p>
                 We may collect information that you voluntarily provide to us when you:
               </p>
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
                 This information may include your name, email address, and any other information you choose to provide.
               </p>
 
-              <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 mt-4">2.2 Automatically Collected Information</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-200 mb-3 mt-4">2.2 Automatically Collected Information</h3>
               <p>
                 When you visit our Service, we may automatically collect certain information about your device, 
                 including:
@@ -187,9 +187,9 @@ export default function PrivacyPolicy() {
                 If you have any questions about this Privacy Policy or wish to exercise your rights, please 
                 contact us:
               </p>
-              <div className="mt-3 bg-slate-800/50 rounded p-4 border border-purple-500/20">
+              <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
                 <p className="font-semibold text-white">Casino Top Choices</p>
-                <p>Website: <a href="https://www.casinofunzone1.com" className="text-purple-400 hover:text-purple-300 underline">casinofunzone1.com</a></p>
+                <p>Website: <a href="https://www.casinouk2026.com" className="text-emerald-400 hover:text-emerald-300 underline">casinouk2026.com</a></p>
                 <p>Email: Please use our contact form on the website</p>
               </div>
             </section>
@@ -197,21 +197,21 @@ export default function PrivacyPolicy() {
         </div>
       </main>
 
-      <footer className="bg-slate-900 border-t border-purple-500/20 py-6 sm:py-8 lg:py-12 mt-12">
+      <footer className="bg-black border-t border-white/10 py-6 sm:py-8 lg:py-12 mt-12">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="flex justify-center mb-6 sm:mb-8">
             <Logo />
           </div>
-          <div className="border-t border-purple-500/20 pt-4 sm:pt-6 text-center">
-            <p className="text-gray-400 text-xs sm:text-sm">
-              © 2026 casinofunzone1.com. For educational purposes only. 18+ only. Please gamble responsibly.
+          <div className="border-t border-white/10 pt-4 sm:pt-6 text-center">
+            <p className="text-gray-500 text-xs sm:text-sm">
+              © 2026 casinouk2026.com. For educational purposes only. 18+ only. Please gamble responsibly.
             </p>
             <div className="mt-4 flex justify-center gap-4 text-xs sm:text-sm">
-              <a href="/" className="text-purple-400 hover:text-purple-300">Home</a>
-              <span className="text-gray-500">|</span>
-              <a href="/privacy" className="text-purple-400 hover:text-purple-300">Privacy Policy</a>
-              <span className="text-gray-500">|</span>
-              <a href="/terms" className="text-purple-400 hover:text-purple-300">Terms of Service</a>
+              <a href="/" className="text-emerald-400 hover:text-emerald-300">Home</a>
+              <span className="text-gray-600">|</span>
+              <a href="/privacy" className="text-emerald-400 hover:text-emerald-300">Privacy Policy</a>
+              <span className="text-gray-600">|</span>
+              <a href="/terms" className="text-emerald-400 hover:text-emerald-300">Terms of Service</a>
             </div>
           </div>
         </div>
