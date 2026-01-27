@@ -74,10 +74,10 @@ export default function CasinoCard({ casino, badge, gclid }: CasinoCardProps) {
       onClick={handleCardClick}
       onKeyDown={handleCardKeyDown}
     >
-      {/* Badge - On top of card */}
+      {/* Badge - Inside card */}
       {badge && (
         <span
-          className={`absolute -top-3 left-1 rounded-full px-3 py-1.5 text-[11px] font-extrabold tracking-wide ring-1 ${
+          className={`inline-block mb-2 rounded-full px-3 py-1.5 text-[11px] font-extrabold tracking-wide ring-1 ${
             badge === 'gold' 
               ? 'bg-emerald-500 text-white ring-emerald-400' 
               : badge === 'silver' 

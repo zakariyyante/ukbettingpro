@@ -54,7 +54,7 @@ export default function Home() {
         </div>
 
         {/* Casino Card */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-40 lg:gap-10 max-w-6xl mx-auto">
           {regularCasinos.map((casino) => (
             <CasinoCard key={casino.id} casino={casino} />
           ))}
