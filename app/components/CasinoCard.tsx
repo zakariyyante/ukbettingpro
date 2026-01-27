@@ -92,7 +92,7 @@ export default function CasinoCard({ casino, badge, gclid }: CasinoCardProps) {
       {/* Top Section: Logo and Rating */}
       <div className="flex items-start justify-between mb-3">
         {/* Logo - Left */}
-        <div className="w-32 h-14 sm:w-36 sm:h-16 mt-2 flex items-center justify-center [&>svg]:text-white [&>svg]:fill-white">
+        <div className="w-40 h-20 sm:w-50 sm:h-25 mt-2 flex items-center justify-center [&>svg]:text-white [&>svg]:fill-white">
           {renderLogo()}
         </div>
 
