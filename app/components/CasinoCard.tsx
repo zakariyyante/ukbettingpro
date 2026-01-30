@@ -122,10 +122,15 @@ export default function CasinoCard({ casino, badge, gclid }: CasinoCardProps) {
           event.stopPropagation();
           handleCasinoClick();
         }}
-        className="block w-full bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 text-white font-bold py-3 px-4 rounded-xl text-center text-sm uppercase shadow-lg hover:from-emerald-400 hover:via-teal-400 hover:to-cyan-400 transition-all duration-300 flex items-center justify-center gap-2"
+        className="relative block w-full overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
       >
-        Play Now
-        <ArrowRight className="w-4 h-4" />
+        <div className="flex">
+          <div className="flex-1 bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 hover:from-emerald-400 hover:via-teal-400 hover:to-cyan-400 text-white font-bold py-3 px-4 text-sm uppercase flex items-center justify-center gap-2">
+            Play Now
+            <ArrowRight className="w-4 h-4" />
+          </div>
+         {gclid &&  <div className="w-14 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCAzMCI+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJNMCAwdjMwaDYwVjB6Ii8+PC9jbGlwUGF0aD48Y2xpcFBhdGggaWQ9ImIiPjxwYXRoIGQ9Ik0zMCAxNWgzMHYxNXp2MTVIMHpIMHYtMTV6di0xNWgzMHoiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNhKSI+PHBhdGggZD0iTTAgMHYzMGg2MFYweiIgZmlsbD0iIzAxMjE2OSIvPjxwYXRoIGQ9Ik0wIDBoNjB2MzBIMHoiIGZpbGw9IiMwMTIxNjkiLz48cGF0aCBkPSJNMCAwbDYwIDMwbTAtMzBMMCAzMCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjYiLz48cGF0aCBkPSJNMCAwbDYwIDMwbTAtMzBMMCAzMCIgY2xpcC1wYXRoPSJ1cmwoI2IpIiBzdHJva2U9IiNDODEwMkUiIHN0cm9rZS13aWR0aD0iNCIvPjxwYXRoIGQ9Ik0zMCAwdjMwTTAgMTVoNjAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxMCIvPjxwYXRoIGQ9Ik0zMCAwdjMwTTAgMTVoNjAiIHN0cm9rZT0iI0M4MTAyRSIgc3Ryb2tlLXdpZHRoPSI2Ii8+PC9nPjwvc3ZnPg==')] bg-cover bg-center flex items-center justify-center rounded-r-xl"></div>}
+        </div>
       </a>
 
       {/* {gclid && (
