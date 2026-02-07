@@ -44,6 +44,13 @@ const casinosRawData: CasinoRawData[] = [
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
     isMobile: true
   },
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "350% up to £680 + 200 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
+    isMobile: true
+  },
 
   {
     name: "LuckyWave",
@@ -65,13 +72,6 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "100% up to £500 + 250 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
     isMobile:true
-  },
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "350% up to £680 + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
-    isMobile: true
   },
   {
     name: "VegasHero",
