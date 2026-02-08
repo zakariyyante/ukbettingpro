@@ -5,6 +5,7 @@ export interface Casino {
   name: string;
   logo: LogoKey | string;
   rating: number;
+  votes: number;
   bonus: string;
   url: string;
   badge?: string;
@@ -16,6 +17,7 @@ interface CasinoRawData {
   logo: LogoKey | string;
   bonus: string;
   url: string;
+  votes: number;
   isMobile?: boolean;
 }
 
@@ -36,6 +38,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/BetNinja.png",
     bonus: "£1000 + 100 Free Spins",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=betninja",
+    votes: 4872,
     isMobile: true
   },
   {
@@ -43,6 +46,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/spinshark.svg",
     bonus: "£900 BONUS + 150 Free Spins",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
+    votes: 4515,
     isMobile: true
   },
   {
@@ -50,6 +54,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/lizaro.png",
     bonus: "350% up to £680 + 200 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=lizaro",
+    votes: 4912,
     isMobile: true
   },
   {
@@ -57,6 +62,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/qbet.svg",
     bonus: "100% UP TO £100 BONUS + 200 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=qbet",
+    votes: 3986,
     isMobile: true
   },
   {
@@ -64,6 +70,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/harry.svg",
     bonus: "£1000 BONUS + 100 Free Spins",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=harry",
+    votes: 2951,
     isMobile:true
   },
   {
@@ -71,6 +78,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/luckytwice.svg",
     bonus: "100% up to £500 + 250 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
+    votes: 2149,
     isMobile:true
   },
   // {
@@ -92,6 +100,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/gqbet.gif",
     bonus: "Enjoy a Welcome Bonus £500 + 100 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=gqbet",
+    votes: 1997,
     isMobile: true
   },
   {
@@ -99,6 +108,7 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/luckywave.svg",
     bonus: "100% UP TO £2,000  + 200 FREE SPINS",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
+    votes: 1724,
     isMobile: true
   },
 
@@ -286,12 +296,14 @@ const casinosRawData: CasinoRawData[] = [
     logo: "/247.png",
     bonus: "100% WELCOME BONUS UP TO £300 + 50 BONUS SPINS ON FIRST DEPOSIT",
     url: "https://media1.casimbaaff.com/redirect.aspx?pid=52782&lpid=285&bid=1713&subid=247Bet-ST&clickid=",
+    votes: 1438,
   },
   {
     name: "Spinland",
     logo: "/spinland.png",
     bonus: "100% WELCOME BONUS UP TO £300 + 50 BONUS SPINS ON FIRST DEPOSIT",
     url: "https://media1.casimbaaff.com/redirect.aspx?pid=48778&lpid=213&bid=1617&subid=Spinland-ST&clickid=",
+    votes: 1126,
   },
   // {
   //   name: "Coral Casino",
@@ -328,6 +340,7 @@ export const casinos: Casino[] = casinosRawData.map((casino, index) => {
     name: casino.name,
     logo: casino.logo,
     rating: rating,
+    votes: casino.votes,
     bonus: casino.bonus,
     url: casino.url,
     badge: index < 3 ? topBadges[index] : undefined,

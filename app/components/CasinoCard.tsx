@@ -89,6 +89,7 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
             {casino.rating.toFixed(1)}
           </span>
           <div className="text-amber-400 text-sm tracking-tight">★★★★★</div>
+          <div className="text-xs text-white/70">{casino.votes} reviews</div>
         </div>
       </div>
 
