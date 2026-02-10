@@ -37,9 +37,9 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
         <Image 
           src={casino.logo} 
           alt={`${casino.name} Casino`} 
-          width={140} 
-          height={100} 
-          className="object-contain"
+          width={220} 
+          height={140} 
+          className="h-full w-full object-contain"
         />
       );
     }
@@ -79,7 +79,7 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
       {/* Logo and Rating Row */}
       <div className={`flex items-center justify-between mb-4 ${badge ? 'pt-6' : ''}`}>
         {/* Logo - Centered Left */}
-        <div className="w-32 h-20 sm:w-36 sm:h-24 flex items-center justify-center [&>svg]:text-white [&>svg]:fill-white">
+        <div className="w-44 h-28 sm:w-52 sm:h-32 flex items-center justify-center [&>svg]:text-white [&>svg]:fill-white [&>svg]:w-full [&>svg]:h-full">
           {renderLogo()}
         </div>
 
@@ -93,9 +93,9 @@ export default function CasinoCard({ casino, badge, isOnline = false }: CasinoCa
         </div>
       </div>
 
-      {/* Bonus Offer - Centered, Amber Color */}
-      <div className="text-center mb-4">
-        <p className="text font-bold text-sm sm:text-base uppercase leading-tight">
+      {/* Bonus Offer - Highlighted */}
+      <div className="text-center mb-5">
+        <p className="rounded-xl border border-red-500/50 bg-red-900/10 px-3 py-2 text-base sm:text-lg font-extrabold uppercase leading-tight text-white shadow-sm">
           {casino.bonus}
         </p>
       </div>
