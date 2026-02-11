@@ -33,14 +33,7 @@ const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 // Raw casino data without id, rating, and badgess
 
 const casinosRawData: CasinoRawData[] = [
-  {
-    name: "LuckyWave",
-    logo: "/luckywave.svg",
-    bonus: "100% UP TO £2,000  + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
-    votes: 1724,
-    isMobile: true
-  },
+
   {
     name: "Lizaro",
     logo: "/lizaro.png",
@@ -56,6 +49,14 @@ const casinosRawData: CasinoRawData[] = [
     bonus: "HIGHROLLER BONUS +50% Up to 500£",
     url: "https://topbritcasinos.com/B7W2b6jr?utm_target=daff",
     votes: 5034,
+    isMobile: true
+  },
+  {
+    name: "SpinShark",
+    logo: "/spinshark.svg",
+    bonus: "£900 BONUS + 150 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
+    votes: 4143,
     isMobile: true
   },
   {
@@ -83,16 +84,16 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "SpinShark",
-    logo: "/spinshark.svg",
-    bonus: "£900 BONUS + 150 Free Spins",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinshark",
-    votes: 4143,
-    isMobile: true
-  },
 
 
+  // {
+  //   name: "LuckyWave",
+  //   logo: "/luckywave.svg",
+  //   bonus: "100% UP TO £2,000  + 200 FREE SPINS",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckywave",
+  //   votes: 1724,
+  //   isMobile: true
+  // },
   // {
   //   name: "Fish&Spins",
   //   logo: "/fishspins.svg",
