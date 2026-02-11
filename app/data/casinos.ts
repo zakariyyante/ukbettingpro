@@ -59,6 +59,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
   {
+    name: "LuckyTwice",
+    logo: "/luckytwice.svg",
+    bonus: "100% up to £500 + 250 FREE SPINS",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
+    votes: 2149,
+    isMobile:true
+  },
+  {
     name: "HarryCasino",
     logo: "/harry.svg",
     bonus: "£1000 BONUS + 100 Free Spins",
@@ -111,14 +119,7 @@ const casinosRawData: CasinoRawData[] = [
   //   isMobile: true
   // },
 
-  // {
-  //   name: "LuckyTwice",
-  //   logo: "/luckytwice.svg",
-  //   bonus: "100% up to £500 + 250 FREE SPINS",
-  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=luckytwice",
-  //   votes: 2149,
-  //   isMobile:true
-  // },
+
 
 
   // {
