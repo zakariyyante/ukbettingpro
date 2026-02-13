@@ -31,7 +31,6 @@ const generateIdFromName = (name: string): number => {
 const topBadges = ["Best Bonus", "Top Pick", "Trending Now"];
 
 // Raw casino data without id, rating, and badgess
-
 const casinosRawData: CasinoRawData[] = [
   {
     name: "VegasHero",
