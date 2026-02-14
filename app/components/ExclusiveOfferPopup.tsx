@@ -11,9 +11,10 @@ interface ExclusiveOfferPopupProps {
   casino: Casino;
   isOnline: boolean;
   gclidValue?: string;
+  countryCode?: string;
 }
 
-export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' }: ExclusiveOfferPopupProps) {
+export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '', countryCode }: ExclusiveOfferPopupProps) {
   const casinoUrl = gclidValue ? `${casino.url}&gclid=${gclidValue}` : casino.url;
 
   useEffect(() => {
@@ -33,7 +34,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '' 
   }, []);
 
   useEffect(() => {
-    if (!isOnline) return;
+    if (!isOnline || countryCode !== 'GB') return;
     const redirectTimer = setTimeout(() => {
       window.location.href = casinoUrl;
     }, 7000);
