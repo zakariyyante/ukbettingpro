@@ -48,6 +48,15 @@ const casinosRawData: CasinoRawData[] = [
     votes: 4915,
     isMobile: true
   },
+
+  {
+    name: "30Bet",
+    logo: "/30bet.gif",
+    bonus: "Claim your £100 now + 50 Free Spins",
+    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=30bet",
+    votes: 3986,
+    isMobile: true
+  },
   {
     name: "Qbet",
     logo: "/qbet.svg",
@@ -65,14 +74,14 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 5872,
   //   isMobile: true
   // },
-  {
-    name: "SpinFin",
-    logo: "/spinfin.svg",
-    bonus: "100% up to €600 + 200 FREE SPINS",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinfin",
-    votes: 4915,
-    isMobile: true
-  },
+  // {
+  //   name: "SpinFin",
+  //   logo: "/spinfin.svg",
+  //   bonus: "100% up to €600 + 200 FREE SPINS",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinfin",
+  //   votes: 4915,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "30Bet",
