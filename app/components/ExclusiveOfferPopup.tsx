@@ -46,6 +46,14 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
     sessionStorage.setItem('exclusiveOfferShown', 'true');
   };
 
+  const handleOverlayClick = () => {
+    handleClose();
+  };
+
+  const handleContentClick = (event: React.MouseEvent<HTMLDivElement>) => {
+    event.stopPropagation();
+  };
+
   const renderStars = (rating: number) => (
     <div className="flex gap-0.5">
       {[...Array(5)].map((_, i) => (
@@ -72,8 +80,14 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
-      <div className="relative bg-[#151b2e] rounded-2xl shadow-2xl border border-red-600/70 max-w-md w-full overflow-hidden">
+    <div
+      className="fixed inset-0 z-[100] bg-black/70 backdrop-blur-sm flex items-center justify-center p-4"
+      onClick={handleOverlayClick}
+    >
+      <div
+        className="relative bg-[#151b2e] rounded-2xl shadow-2xl border border-red-600/70 max-w-md w-full overflow-hidden"
+        onClick={handleContentClick}
+      >
         <button
           onClick={handleClose}
           className="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-black/70 hover:bg-black/90 flex items-center justify-center transition-colors border border-white/10"
