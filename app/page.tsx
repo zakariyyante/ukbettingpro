@@ -82,7 +82,7 @@ export default async function Home({ searchParams }: PageProps) {
   // Filter non-mobile casinos for the main page
   const regularCasinos = casinos.filter(casino => !casino.isMobile);
   // Get first casino for exclusive offer popup (VegasHero)
-  const exclusiveCasino = casinos.find(casino => casino.name === 'VegasHero') || mobileCasinos[0];
+  const exclusiveCasino = casinos.find(casino => casino.name === 'SpinShark') || mobileCasinos[0];
   
   return (
     <div className="min-h-screen bg-black">
@@ -90,7 +90,7 @@ export default async function Home({ searchParams }: PageProps) {
       <MobileCasinoModal mobileCasinos={mobileCasinos} isOnline={isOnline} gclidValue={gclid} />
       
       {/* Exclusive Offer Popup - Shows after 5 seconds and when user scrolls */}
-      {/* <ExclusiveOfferPopup casino={exclusiveCasino} isOnline={isOnline} gclidValue={gclid} countryCode={countryCode} />*/}
+      <ExclusiveOfferPopup casino={exclusiveCasino} isOnline={isOnline} gclidValue={gclid} countryCode={countryCode} />
       
       {/* Header */}
       <Header />
