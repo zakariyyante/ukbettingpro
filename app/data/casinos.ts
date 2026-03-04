@@ -66,14 +66,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "SpinKings",
-    logo: "/spinking.png",
-    bonus: "GET 100% BONUS UP TO £100",
-    url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinkings",
-    votes: 4143,
-    isMobile: true
-  },
+  // {
+  //   name: "SpinKings",
+  //   logo: "/spinking.png",
+  //   bonus: "GET 100% BONUS UP TO £100",
+  //   url: "https://topbritcasinos.com/B7W2b6jr?utm_target=spinkings",
+  //   votes: 4143,
+  //   isMobile: true
+  // },
 
   //
   // {
