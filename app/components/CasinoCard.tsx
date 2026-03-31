@@ -8,7 +8,7 @@ import { track } from '@vercel/analytics';
 interface CasinoCardProps {
   casino: Casino;
   rank?: number;
-  badge?: 'gold' | 'silver' | 'bronze' ;
+  badge?: 'gold' | 'silver' | 'bronze' | 'fourth' ;
   isOnline?: boolean;
 }
 
@@ -48,7 +48,7 @@ export default function CasinoCard({ casino, rank, badge, isOnline = false }: Ca
 
   const paymentMethods = ["Apple Pay", "Google Pay", "PayPal", "Visa Debit", "Mastercard Debit", "Skrill", "Neteller", "Paysafecard", "Bank Transfer"];
 
-  const badgeLabel = badge === 'gold' ? "Fast Withdrawal" : badge === 'silver' ? 'Most Popular' : badge === 'bronze' ? 'Trusted/Licensed' : '';
+  const badgeLabel = badge === 'gold' ? "Fast Withdrawal" : badge === 'silver' ? 'Most Popular' : badge === 'bronze' ? 'Trusted/Licensed' : null;
 
   return (
     <article
