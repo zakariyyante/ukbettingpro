@@ -20,7 +20,7 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
     
     return mobileCasinos.map(casino => ({
       ...casino,
-      url: casino.url + `&gclid=${gclidValue}`
+      url: casino.url + `&utm_source=${gclidValue}`
     }));
   }, [mobileCasinos, gclidValue]);
 
