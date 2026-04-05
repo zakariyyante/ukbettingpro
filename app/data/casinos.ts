@@ -41,14 +41,14 @@ const casinosRawData: CasinoRawData[] = [
     isMobile: true
   },
 
-  {
-    name: "30Bet",
-    logo: "/30bet.gif",
-    bonus: "Claim your £100 now + 50 Free Spins",
-    url: "https://30bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=30bet",
-    votes: 3986,
-    isMobile: true
-  },
+  // {
+  //   name: "30Bet",
+  //   logo: "/30bet.gif",
+  //   bonus: "Claim your £100 now + 50 Free Spins",
+  //   url: "https://30bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=30bet",
+  //   votes: 3986,
+  //   isMobile: true
+  // },
   {
     name: "GQbet",
     logo: "/gqbet.gif",
