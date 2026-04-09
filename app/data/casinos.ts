@@ -40,15 +40,15 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 5872,
   //   isMobile: true
   // },
-
-  {
-    name: "Westace",
-    logo: "/westace.webp",
-    bonus: "300% UP TO €2000 + 150 FS",
-    url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
-    votes: 5872,
-    isMobile: true
-  },
+  //
+  // {
+  //   name: "Westace",
+  //   logo: "/westace.webp",
+  //   bonus: "300% UP TO €2000 + 150 FS",
+  //   url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "30Bet",
@@ -74,22 +74,22 @@ const casinosRawData: CasinoRawData[] = [
   //   votes: 5872,
   //   isMobile: true
   // },
-  {
-    name: "Sankra",
-    logo: "/sankra.svg",
-    bonus: "100% UP TO £600 + 200 FREE SPINS",
-    url: "https://sankra.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=sankra",
-    votes: 5872,
-    isMobile: true
-  },
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "200% up to £1000 + 250 FREE SPINS",
-    url: "https://lizaro.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lizaro",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "Sankra",
+  //   logo: "/sankra.svg",
+  //   bonus: "100% UP TO £600 + 200 FREE SPINS",
+  //   url: "https://sankra.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=sankra",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
+  // {
+  //   name: "Lizaro",
+  //   logo: "/lizaro.png",
+  //   bonus: "200% up to £1000 + 250 FREE SPINS",
+  //   url: "https://lizaro.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lizaro",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
 
 
@@ -524,19 +524,19 @@ const casinosRawData: CasinoRawData[] = [
   //   url: "https://www.karamba.co.uk/lp/wo-300-spins?asys=cexp&affid=40838&AffiliateID=cx-40838_717172&cxd=cx-40838_717172&afi=28080&ar=&gclid=&lpr=%5Bafp2%5D&mmi=%5Bafp5%5D&MSCLKID=%5BMSCLKID%5D&utm_content=40838"
   // },
   {
-    name: "247Bet",
-    logo: "/247.png",
-    bonus: "100% WELCOME BONUS UP TO £300 + 50 BONUS SPINS ON FIRST DEPOSIT",
-    url: "https://media1.casimbaaff.com/redirect.aspx?pid=52782&lpid=285&bid=1713&subid=247Bet-ST&clickid=",
+    name: "Barz",
+    logo: "/barz.webp",
+    bonus: "100% WELCOME BONUS UP TO £300 + 50 BONUS SPINS",
+    url: "https://media1.casimbaaff.com/redirect.aspx?pid=48000&bid=1480",
     votes: 1438,
   },
-  {
-    name: "Spinland",
-    logo: "/spinland.png",
-    bonus: "100% WELCOME BONUS UP TO £300 + 50 BONUS SPINS ON FIRST DEPOSIT",
-    url: "https://media1.casimbaaff.com/redirect.aspx?pid=48778&lpid=213&bid=1617&subid=Spinland-ST&clickid=",
-    votes: 1126,
-  },
+  // {
+  //   name: "Spinland",
+  //   logo: "/spinland.png",
+  //   bonus: "100% WELCOME BONUS UP TO £300 + 50 BONUS SPINS ON FIRST DEPOSIT",
+  //   url: "https://media1.casimbaaff.com/redirect.aspx?pid=48778&lpid=213&bid=1617&subid=Spinland-ST&clickid=",
+  //   votes: 1126,
+  // },
   // {
   //   name: "Coral Casino",
   //   logo: "coral",
