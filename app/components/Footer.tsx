@@ -64,35 +64,44 @@ export default function Footer() {
             Play Responsibly
           </p>
           <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-5 rounded-2xl bg-[color:var(--muted)]/30 border border-[color:color-mix(in_oklab,var(--primary)_16%,transparent)] px-4 py-3">
-            <div className="bg-black/20 rounded-xl px-3 py-2 border border-[color:color-mix(in_oklab,var(--primary)_16%,transparent)]">
-              <Image src="/18plus.png" alt="18+ only" width={64} height={64} className="h-10 w-auto" />
+            <div>
+              <Image src="/18pluss.png" alt="18+ only" width={64} height={64} className="h-10 w-auto" />
             </div>
             <a
-              href="https://www.gambleaware.org"
+              href="https://www.begambleaware.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black/20 rounded-xl px-4 py-2 border border-[color:color-mix(in_oklab,var(--primary)_16%,transparent)] hover:border-[color:color-mix(in_oklab,var(--accent)_40%,transparent)] transition-colors"
-              aria-label="Visit GambleAware"
+              aria-label="Visit BeGambleAware"
             >
-              <Image src="/gambleaware.png" alt="GambleAware" width={220} height={56} className="h-10 w-auto" />
+              <Image
+                src="/gamble-aware-logo.svg"
+                alt="GambleAware"
+                width={320}
+                height={56}
+                className="h-10 w-auto"
+              />
             </a>
             <a
               href="https://www.gamcare.org.uk"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black/20 rounded-xl px-4 py-2 border border-[color:color-mix(in_oklab,var(--primary)_16%,transparent)] hover:border-[color:color-mix(in_oklab,var(--accent)_40%,transparent)] transition-colors"
               aria-label="Visit GamCare"
             >
-              <Image src="/gamcare.png" alt="GamCare" width={220} height={56} className="h-10 w-auto" />
+              <Image src="/cam-care-logo.svg" alt="GamCare" width={220} height={48} className="h-10 w-auto" />
             </a>
             <a
               href="https://www.gamstop.co.uk"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black/20 rounded-xl px-4 py-2 border border-[color:color-mix(in_oklab,var(--primary)_16%,transparent)] hover:border-[color:color-mix(in_oklab,var(--accent)_40%,transparent)] transition-colors"
               aria-label="Visit GAMSTOP"
             >
-              <Image src="/gamstop.png" alt="GAMSTOP" width={220} height={56} className="h-10 w-auto" />
+              <Image
+                src="/gamstop-vector-logo.svg"
+                alt="GAMSTOP"
+                width={200}
+                height={40}
+                className="h-10 w-auto"
+              />
             </a>
           </div>
           <p className="text-blue-200/50 text-[11px] sm:text-xs text-center max-w-4xl leading-relaxed mt-1">
@@ -101,7 +110,6 @@ export default function Footer() {
               href="https://www.begambleaware.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-2 decoration-[color:color-mix(in_oklab,var(--accent)_40%,transparent)] hover:text-[color:var(--accent)] transition-colors"
             >
               BeGambleAware.org
             </a>
