@@ -27,72 +27,52 @@ export default async function Home({ searchParams }: PageProps) {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative container mx-auto px-4 pt-8 pb-6 sm:pt-14 sm:pb-8 lg:pt-16 lg:pb-10 text-center overflow-hidden">
-        {/* Decorative background elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-10 left-10 text-6xl sm:text-8xl opacity-[0.04] text-[color:var(--primary)] rotate-12 select-none">♠</div>
-          <div className="absolute top-20 right-16 text-5xl sm:text-7xl opacity-[0.04] text-[color:var(--accent)] -rotate-12 select-none">♥</div>
-          <div className="absolute bottom-10 left-1/4 text-5xl sm:text-7xl opacity-[0.04] text-[color:var(--primary)] rotate-6 select-none">♦</div>
-          <div className="absolute bottom-5 right-1/4 text-6xl sm:text-8xl opacity-[0.04] text-[color:var(--accent)] -rotate-6 select-none">♣</div>
-        </div>
-
-        <div className="relative mx-auto max-w-4xl">
-          <div className="inline-block mb-5 px-5 py-2 rounded-full bg-gradient-to-r from-[color:var(--primary)]/10 to-[color:var(--accent)]/10 border border-[color:color-mix(in_oklab,var(--primary)_24%,transparent)]">
-            <span className="text-xs sm:text-sm font-bold text-[color:var(--accent)] uppercase tracking-wider">
-              {BRAND.name} • Updated for {year}
-            </span>
-          </div>
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-white mb-5 leading-tight">
-            Discover the UK&apos;s <span className="gold-text">Top-Rated</span> Casino Platforms
-          </h1>
-          <p className="text-base sm:text-lg text-blue-100/50 mb-8 max-w-2xl mx-auto">
-            Expert-reviewed UK casino offers, refreshed weekly with clear rankings and safer-gambling resources.
+      <section className="relative container mx-auto px-4 pt-10 sm:pt-14 lg:pt-16 pb-10 sm:pb-14 text-center">
+        <div className="mx-auto max-w-5xl rounded-3xl border border-white/10 bg-gradient-to-b from-[color:var(--surface-1)]/70 to-transparent px-5 sm:px-10 py-10 sm:py-14">
+          <p className="text-white/55 text-xs sm:text-sm tracking-wide">
+            Updated for {year} • UK-focused comparisons
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-            <div className="flex items-center gap-2.5 bg-[color:var(--card-bg)] rounded-full px-5 py-2.5 border border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)]">
-              <span className="text-[color:var(--accent)] text-lg">♠</span>
-              <span className="text-blue-100/70 text-sm font-semibold">UKGC licensed</span>
-            </div>
-            <div className="flex items-center gap-2.5 bg-[color:var(--card-bg)] rounded-full px-5 py-2.5 border border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)]">
-              <span className="text-[color:var(--accent)] text-lg">★</span>
-              <span className="text-blue-100/70 text-sm font-semibold">Editor picks</span>
-            </div>
-            <div className="flex items-center gap-2.5 bg-[color:var(--card-bg)] rounded-full px-5 py-2.5 border border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)]">
-              <span className="text-[color:var(--accent)] text-lg">♦</span>
-              <span className="text-blue-100/70 text-sm font-semibold">Fast payouts</span>
-            </div>
-          </div>
+          <h1 className="mt-4 text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+            Find the UK&apos;s best online casino picks
+          </h1>
+          <p className="mt-4 text-sm sm:text-base text-white/55 max-w-2xl mx-auto leading-relaxed">
+            A straightforward guide to licensed UK platforms — with impartial ratings, bonus highlights, and safer-gambling signposting.
+          </p>
         </div>
       </section>
 
       {/* Casino Cards Section */}
-      <section id="casinos" className="container mx-auto px-4 pb-16">
-        <div className="mb-3 sm:mb-5 lg:mb-8 text-center">
-          <h3 className="text-xl sm:text-2xl lg:text-4xl font-extrabold gold-text mb-2 sm:mb-4 tracking-wide">
-            Editors&apos; Top Selections
-          </h3>
-          <p className="text-sm sm:text-base text-blue-100/40">Refreshed weekly — ranked by withdrawal speed, bonuses, and real player feedback.</p>
-        </div>
+      <section id="casinos" className="bg-[color:var(--surface-1)]/10 border-y border-white/5">
+        <div className="container mx-auto px-4 pb-16 pt-10 sm:pt-12">
+          <div className="mb-6 sm:mb-8 text-center">
+            <h2 className="text-xl sm:text-2xl lg:text-4xl font-extrabold text-white tracking-wide">
+              Leading UK casino offers
+            </h2>
+            <p className="mt-2 text-sm sm:text-base text-white/50">
+              Hand-picked options with clear pros, bonuses, and payout notes — refreshed regularly.
+            </p>
+          </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
-          {regularCasinos.map((casino, index) => (
-            <CasinoCard
-              key={casino.id}
-              casino={casino}
-              rank={index + 1}
-            />
-          ))}
-        </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
+            {regularCasinos.map((casino, index) => (
+              <CasinoCard
+                key={casino.id}
+                casino={casino}
+                rank={index + 1}
+              />
+            ))}
+          </div>
 
-        <div className="mt-8 sm:mt-12 lg:mt-16 bg-[color:var(--muted)]/25 border border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)] rounded-2xl p-3 sm:p-4 lg:p-6 max-w-6xl mx-auto">
-          <p className="text-blue-200/50 text-xs sm:text-sm text-center">
-            <strong className="text-blue-200/70">New customers only.</strong> 18+. T&Cs apply. BeGambleAware.org. Please play responsibly.
-          </p>
+          <div className="mt-8 sm:mt-12 lg:mt-16 bg-white/5 border border-white/10 rounded-2xl p-3 sm:p-4 lg:p-6 max-w-6xl mx-auto">
+            <p className="text-white/55 text-xs sm:text-sm text-center">
+              <strong className="text-white/70">New customers only.</strong> 18+. T&amp;Cs apply. BeGambleAware.org. Please play responsibly.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section id="about" className="bg-[color:var(--surface-1)] py-8 sm:py-12 lg:py-16 border-y border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)]">
+      <section id="about" className="bg-[color:var(--surface-1)]/50 py-8 sm:py-12 lg:py-16 border-y border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)]">
         <div className="container mx-auto px-4 max-w-6xl">
           <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-white mb-4 sm:mb-6 lg:mb-8 text-center">
             How We Rank UK Casinos

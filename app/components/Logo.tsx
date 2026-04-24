@@ -19,18 +19,23 @@ export default function Logo({ className = "" }: LogoProps) {
             <stop offset="100%" stopColor="var(--primary)"/>
           </linearGradient>
         </defs>
-        <rect x="5" y="5" width="28" height="28" rx="4" transform="rotate(0, 19, 19)" fill="#091428" stroke="url(#logoBlue)" strokeWidth="1.5"/>
-        <path d="M19 8 C19 8, 12 14, 12 18 C12 21, 14 23, 17 22 C15 24, 14 26, 14 27 L24 27 C24 26, 23 24, 21 22 C24 23, 26 21, 26 18 C26 14, 19 8, 19 8Z" fill="url(#logoBlue)"/>
-        <rect x="17" y="29" width="4" height="4" rx="0.5" transform="rotate(45, 19, 31)" fill="url(#logoCyan)"/>
+        {/* Rounded chip frame */}
+        <rect x="5" y="5" width="28" height="28" rx="7" fill="#071226" stroke="url(#logoBlue)" strokeWidth="1.5"/>
+        <rect x="9" y="9" width="20" height="20" rx="5" fill="none" stroke="url(#logoCyan)" strokeWidth="1" opacity="0.7"/>
+        {/* Simple card / ticket mark (different silhouette) */}
+        <path
+          d="M13 15.5c0-1.4 1.1-2.5 2.5-2.5h8c1.4 0 2.5 1.1 2.5 2.5v6.8c0 1.4-1.1 2.5-2.5 2.5h-8c-1.4 0-2.5-1.1-2.5-2.5v-1.1c1.2-.3 2.1-1.4 2.1-2.7s-.9-2.4-2.1-2.7v-1.1Z"
+          fill="url(#logoBlue)"
+          opacity="0.95"
+        />
+        <path d="M18 14.8h6.8" stroke="#F8FAFC" strokeWidth="1.2" opacity="0.45" strokeLinecap="round"/>
+        <path d="M18 24.1h6.8" stroke="#F8FAFC" strokeWidth="1.2" opacity="0.45" strokeLinecap="round"/>
+        {/* Accent spark */}
+        <path d="M25.5 10.8l.9 1.9 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9.9-1.9Z" fill="url(#logoCyan)" opacity="0.9"/>
       </svg>
-      <div className="flex flex-col leading-none">
-        <span className="text-[15px] sm:text-[17px] font-extrabold tracking-tight gold-text leading-none">
-          {BRAND.name}
-        </span>
-        <span className="text-[10px] font-bold tracking-[0.25em] text-[color:color-mix(in_oklab,var(--primary)_65%,transparent)] uppercase">
-          {BRAND.domain}
-        </span>
-      </div>
+      <span className="text-[15px] sm:text-[17px] font-extrabold tracking-tight text-[color:var(--foreground)] leading-none">
+        {BRAND.name}
+      </span>
     </div>
   );
 }

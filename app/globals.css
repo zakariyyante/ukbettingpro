@@ -1,13 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  /* Dark navy base with cleaner white surfaces */
-  /* Slightly lighter base + more off-white contrast */
-  --background: #081a33; /* was #051226 */
-  --foreground: #f8fafc;
-  --card-bg: #102a52; /* was #0b1f3d */
-  --surface-1: #0b2142; /* was #071a34 */
-  --surface-2: #14305c; /* was #0e2a52 */
+  /* Dark navy base: background slightly darker than sections */
+  --background: #020a16;
+  --foreground: #2aa8ff;
+  --card-bg: #0a1f3d;
+  --surface-1: #081a33;
+  --surface-2: #0b2142;
 
   /* Branding palette (override per site) */
   --primary: #3b82f6;
@@ -48,8 +47,8 @@ body {
 }
 
 @keyframes glow {
-  0%, 100% { box-shadow: 0 0 20px color-mix(in oklab, var(--primary) 14%, transparent); }
-  50% { box-shadow: 0 0 42px color-mix(in oklab, var(--primary) 34%, transparent); }
+  0%, 100% { box-shadow: 0 0 20px #020A16; }
+  50% { box-shadow: 0 0 42px #020A16; }
 }
 
 @keyframes sparkle {
@@ -61,7 +60,7 @@ body {
   background: linear-gradient(
     110deg,
     transparent 33%,
-    color-mix(in oklab, var(--primary) 14%, transparent) 50%,
+    #020A16 50%,
     transparent 67%
   );
   background-size: 200% 100%;
@@ -93,6 +92,6 @@ body {
 
 .felt-texture {
   background-image:
-    radial-gradient(ellipse at 20% 50%, color-mix(in oklab, var(--accent) 10%, transparent) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 50%, color-mix(in oklab, var(--primary) 8%, transparent) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 50%, #020A16 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 50%, #020A16 0%, transparent 55%);
 }

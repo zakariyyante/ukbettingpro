@@ -1,6 +1,6 @@
 export const BRAND = {
-  name: "UK BETS",
-  domain: "uk-bets.com",
+  name: "UK Betting Pro",
+  domain: "ukbettingpro.com",
   tagline: "Top UK Casinos",
   year: new Date().getFullYear(),
   colors: {
