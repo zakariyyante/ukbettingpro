@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer
       id="contact"
-      className="bg-[color:var(--surface-1)] border-t border-[#020A16] py-6 sm:py-8 lg:py-12"
+      className="bg-[color:var(--surface-1)] border-t border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)] py-6 sm:py-8 lg:py-12"
     >
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex justify-center mb-6 sm:mb-8">
@@ -52,70 +52,64 @@ export default function Footer() {
           <div className="col-span-2">
             <h5 className="text-blue-200/80 font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Disclaimer</h5>
             <p className="text-blue-100/40 text-xs sm:text-sm leading-relaxed">
-              We publish independent comparisons and editorial content. All listed casinos are regulated by the UK Gambling Commission. Always check terms with the operator
-              before you play. Gambling should be fun. That's why you set limits and never stake more than you can afford to
-              lose.
+              This comparison portal provides independent editorial reviews. All listed casinos are
+              regulated by the UK Gambling Commission. Gambling is entertainment — never wager more
+              than you can comfortably afford to lose.
             </p>
           </div>
         </div>
         
         <div className="mt-6 sm:mt-10 flex flex-col items-center gap-3">
-          <p className="text-[color:var(--foreground)]/75 text-xs sm:text-sm uppercase tracking-widest font-semibold">
+          <p className="text-blue-200/50 text-xs sm:text-sm uppercase tracking-widest font-semibold">
             Play Responsibly
           </p>
-          <div className="w-full max-w-4xl rounded-2xl bg-[color:var(--muted)]/30 border border-[#020A16] px-4 py-3">
-            <div className="grid grid-cols-2 sm:grid-cols-4 items-center gap-3 sm:gap-5">
-              <a
-                href="https://www.begambleaware.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit BeGambleAware"
-                className="justify-self-center hover:opacity-90 transition-opacity"
-              >
-                <Image
-                  src="/gamble-aware-logo.svg"
-                  alt="GambleAware"
-                  width={320}
-                  height={56}
-                  className="h-10 w-auto"
-                />
-              </a>
-              <a
-                href="https://www.gamcare.org.uk"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit GamCare"
-                className="justify-self-center hover:opacity-90 transition-opacity"
-              >
-                <Image src="/cam-care-logo.svg" alt="GamCare" width={220} height={48} className="h-10 w-auto" />
-              </a>
-              <a
-                href="https://www.gamstop.co.uk"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit GAMSTOP"
-                className="justify-self-center hover:opacity-90 transition-opacity"
-              >
-                <Image
-                  src="/gamstop-vector-logo.svg"
-                  alt="GAMSTOP"
-                  width={200}
-                  height={40}
-                  className="h-10 w-auto"
-                />
-              </a>
-              <div className="justify-self-center">
-                <Image src="/18pluss.png" alt="18+ only" width={64} height={64} className="h-10 w-auto" />
-              </div>
+          <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-5 rounded-2xl bg-[color:var(--muted)]/30 border border-[color:color-mix(in_oklab,var(--primary)_16%,transparent)] px-4 py-3">
+            <div>
+              <Image src="/18pluss.png" alt="18+ only" width={64} height={64} className="h-10 w-auto" />
             </div>
+            <a
+              href="https://www.begambleaware.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit BeGambleAware"
+            >
+              <Image
+                src="/gamble-aware-logo.svg"
+                alt="GambleAware"
+                width={320}
+                height={56}
+                className="h-10 w-auto"
+              />
+            </a>
+            <a
+              href="https://www.gamcare.org.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GamCare"
+            >
+              <Image src="/cam-care-logo.svg" alt="GamCare" width={220} height={48} className="h-10 w-auto" />
+            </a>
+            <a
+              href="https://www.gamstop.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit GAMSTOP"
+            >
+              <Image
+                src="/gamstop-vector-logo.svg"
+                alt="GAMSTOP"
+                width={200}
+                height={40}
+                className="h-10 w-auto"
+              />
+            </a>
           </div>
-          <p className="text-[color:var(--foreground)]/70 text-[11px] sm:text-xs text-center max-w-4xl leading-relaxed mt-1">
+          <p className="text-blue-200/50 text-[11px] sm:text-xs text-center max-w-4xl leading-relaxed mt-1">
             New customers only. 18+. T&amp;Cs apply.{" "}
             <a
               href="https://www.begambleaware.org"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-2"
             >
               BeGambleAware.org
             </a>
@@ -123,8 +117,8 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="border-t border-[#020A16] pt-4 sm:pt-6 text-center mt-6">
-          <p className="text-[color:var(--foreground)]/55 text-xs sm:text-sm">
+        <div className="border-t border-[color:color-mix(in_oklab,var(--primary)_18%,transparent)] pt-4 sm:pt-6 text-center mt-6">
+          <p className="text-blue-100/30 text-xs sm:text-sm">
             &copy; {BRAND.year} {BRAND.domain}. For informational purposes only.
           </p>
         </div>
