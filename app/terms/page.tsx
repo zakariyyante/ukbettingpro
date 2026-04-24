@@ -14,17 +14,17 @@ export default function TermsOfService() {
       
       <main className="container mx-auto px-4 py-8 sm:py-12 lg:py-16 max-w-4xl">
         <div className="bg-[color:var(--card-bg)] rounded-3xl p-6 sm:p-8 lg:p-12 border border-white/10 shadow-lg">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6 sm:mb-8">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[color:var(--foreground)] mb-6 sm:mb-8">
             Terms of Service
           </h1>
           
-          <div className="text-gray-400 text-sm sm:text-base leading-relaxed space-y-6">
-            <p className="text-gray-500 italic">
+          <div className="text-[color:var(--foreground)]/70 text-sm sm:text-base leading-relaxed space-y-6">
+            <p className="text-[color:var(--foreground)]/55 italic">
               Last updated: {new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">1. Acceptance of Terms</h2>
               <p>
                 By accessing and using {BRAND.domain} (the "Website" or "Service"), you accept and agree
                 to be bound by the terms and provision of this agreement. If you do not agree to abide by the 
@@ -33,7 +33,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Description of Service</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">2. Description of Service</h2>
               <p>
                 {BRAND.name} is an information and comparison website that provides reviews, ratings, and 
                 information about online casino operators. We are an independent comparison service and do not 
@@ -51,7 +51,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">3. Age Restrictions</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">3. Age Restrictions</h2>
               <p>
                 You must be at least 18 years old to use this Service. By using this Service, you represent 
                 and warrant that you are at least 18 years of age and have the legal capacity to enter into 
@@ -64,7 +64,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">4. Use of Service</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">4. Use of Service</h2>
               <p>You agree to use the Service only for lawful purposes and in accordance with these Terms. 
                 You agree not to:
               </p>
@@ -79,7 +79,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">5. Third-Party Links and Services</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">5. Third-Party Links and Services</h2>
               <p>
                 Our Service contains links to third-party websites, including online casino operators. We are 
                 not responsible for the content, privacy policies, or practices of any third-party websites.
@@ -96,7 +96,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">6. Disclaimer of Warranties</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">6. Disclaimer of Warranties</h2>
               <p>
                 The information on this Website is provided on an "as is" basis. To the fullest extent 
                 permitted by law, we exclude all representations, warranties, and conditions relating to our 
@@ -114,7 +114,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">7. Limitation of Liability</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">7. Limitation of Liability</h2>
               <p>
                 To the maximum extent permitted by applicable law, {BRAND.name} and its owners, employees, 
                 and affiliates shall not be liable for any indirect, incidental, special, consequential, or 
@@ -132,7 +132,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">8. Responsible Gambling</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">8. Responsible Gambling</h2>
               <p>
                 We are committed to promoting responsible gambling. Gambling should be entertaining and not 
                 seen as a way to make money or solve financial problems.
@@ -143,13 +143,13 @@ export default function TermsOfService() {
               <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
                 <li><strong>BeGambleAware:</strong> Visit{' '}
                   <a href="https://www.begambleaware.org" target="_blank" rel="noopener noreferrer" 
-                     className="text-emerald-400 hover:text-emerald-300 underline">
+                     className="text-[color:var(--foreground)] underline hover:opacity-90">
                     begambleaware.org
                   </a>
                 </li>
                 <li><strong>GamCare:</strong> Call 0808 8020 133 or visit{' '}
                   <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener noreferrer" 
-                     className="text-emerald-400 hover:text-emerald-300 underline">
+                     className="text-[color:var(--foreground)] underline hover:opacity-90">
                     gamcare.org.uk
                   </a>
                 </li>
@@ -161,7 +161,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">9. Intellectual Property</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">9. Intellectual Property</h2>
               <p>
                 The Service and its original content, features, and functionality are owned by {BRAND.name} 
                 and are protected by international copyright, trademark, patent, trade secret, and other 
@@ -175,7 +175,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">10. Affiliate Disclosure</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">10. Affiliate Disclosure</h2>
               <p>
                 {BRAND.name} may receive compensation from casino operators when users click on links or 
                 sign up through our Service. This compensation helps us maintain and improve our Service.
@@ -188,7 +188,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">11. Changes to Terms</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">11. Changes to Terms</h2>
               <p>
                 We reserve the right to modify or replace these Terms at any time. If a revision is material, 
                 we will try to provide at least 30 days notice prior to any new terms taking effect.
@@ -201,7 +201,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">12. Governing Law</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">12. Governing Law</h2>
               <p>
                 These Terms shall be governed by and construed in accordance with the laws of England and Wales, 
                 without regard to its conflict of law provisions.
@@ -213,17 +213,17 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">13. Contact Information</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">13. Contact Information</h2>
               <p>
                 If you have any questions about these Terms of Service, please contact us:
               </p>
               <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
-                <p className="font-semibold text-white">{BRAND.name}</p>
+                <p className="font-semibold text-[color:var(--foreground)]">{BRAND.name}</p>
                 <p>
                   Website:{" "}
                   <a
                     href={`https://${BRAND.domain}`}
-                    className="text-emerald-400 hover:text-emerald-300 underline"
+                    className="text-[color:var(--foreground)] underline hover:opacity-90"
                   >
                     {BRAND.domain}
                   </a>
@@ -233,7 +233,7 @@ export default function TermsOfService() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">14. Severability</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">14. Severability</h2>
               <p>
                 If any provision of these Terms is held to be invalid or unenforceable by a court, the 
                 remaining provisions of these Terms will remain in effect. These Terms constitute the entire 

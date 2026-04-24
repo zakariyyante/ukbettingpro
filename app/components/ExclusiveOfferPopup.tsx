@@ -54,7 +54,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
   const renderStars = (rating: number) => (
     <div className="flex gap-0.5">
       {[...Array(5)].map((_, i) => (
-        <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
+        <Star key={i} className="w-4 h-4 fill-[color:var(--foreground)] text-[color:var(--foreground)]" />
       ))}
     </div>
   );
@@ -90,7 +90,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
           className="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-black/70 hover:bg-black/90 flex items-center justify-center transition-colors border border-amber-500/20"
           aria-label="Close popup"
         >
-          <X className="w-5 h-5 text-amber-200" />
+          <X className="w-5 h-5 text-[color:var(--foreground)]" />
         </button>
 
         <div className="relative mb-4 -mt-2">
@@ -114,7 +114,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
 
           <div className="text-center mb-4 space-y-1">
           {casino.bonus.includes('+') && (
-            <p className="text-white font-extrabold text-lg sm:text-xl bg-amber-500/10 border border-amber-500/25 px-2 py-0.5 rounded-md inline-block whitespace-normal break-words text-center">
+            <p className="text-[color:var(--foreground)] font-extrabold text-lg sm:text-xl bg-amber-500/10 border border-amber-500/25 px-2 py-0.5 rounded-md inline-block whitespace-normal break-words text-center">
               {casino.bonus}
             </p>
           )}
@@ -129,7 +129,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleClose}
-            className="block w-full bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 text-black font-extrabold py-3 px-6 rounded-xl text-center text-lg uppercase tracking-wide transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:from-amber-500 hover:via-amber-400 hover:to-amber-500"
+            className="block w-full bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 text-[color:var(--foreground)] font-extrabold py-3 px-6 rounded-xl text-center text-lg uppercase tracking-wide transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:from-amber-500 hover:via-amber-400 hover:to-amber-500"
           >
             PLAY NOW
           </a>

@@ -14,17 +14,17 @@ export default function PrivacyPolicy() {
       
       <main className="container mx-auto px-4 py-8 sm:py-12 lg:py-16 max-w-4xl">
         <div className="bg-[color:var(--card-bg)] rounded-3xl p-6 sm:p-8 lg:p-12 border border-white/10 shadow-lg">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6 sm:mb-8">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[color:var(--foreground)] mb-6 sm:mb-8">
             Privacy Policy
           </h1>
           
-          <div className="text-gray-400 text-sm sm:text-base leading-relaxed space-y-6">
-            <p className="text-gray-500 italic">
+          <div className="text-[color:var(--foreground)]/70 text-sm sm:text-base leading-relaxed space-y-6">
+            <p className="text-[color:var(--foreground)]/55 italic">
               Last updated: {new Date().toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
             </p>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Introduction</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">1. Introduction</h2>
               <p>
                 Welcome to {BRAND.name} ("we," "our," or "us"). We operate the website {BRAND.domain}
                 (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard 
@@ -37,9 +37,9 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Information We Collect</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">2. Information We Collect</h2>
               
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-200 mb-3 mt-4">2.1 Information You Provide</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-[color:var(--foreground)] mb-3 mt-4">2.1 Information You Provide</h3>
               <p>
                 We may collect information that you voluntarily provide to us when you:
               </p>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
                 This information may include your name, email address, and any other information you choose to provide.
               </p>
 
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-200 mb-3 mt-4">2.2 Automatically Collected Information</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-[color:var(--foreground)] mb-3 mt-4">2.2 Automatically Collected Information</h3>
               <p>
                 When you visit our Service, we may automatically collect certain information about your device, 
                 including:
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">3. How We Use Your Information</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">3. How We Use Your Information</h2>
               <p>We use the information we collect for various purposes, including:</p>
               <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
                 <li>To provide, maintain, and improve our Service</li>
@@ -82,7 +82,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">4. Cookies and Tracking Technologies</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">4. Cookies and Tracking Technologies</h2>
               <p>
                 We use cookies and similar tracking technologies to track activity on our Service and hold 
                 certain information. Cookies are files with a small amount of data which may include an 
@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">5. Third-Party Services</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">5. Third-Party Services</h2>
               <p>
                 Our Service may contain links to third-party websites or services that are not owned or 
                 controlled by us. We are not responsible for the privacy practices of these third parties.
@@ -125,7 +125,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">6. Data Security</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">6. Data Security</h2>
               <p>
                 We implement appropriate technical and organizational security measures to protect your 
                 personal information. However, no method of transmission over the Internet or electronic 
@@ -134,7 +134,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">7. Your Rights (UK GDPR)</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">7. Your Rights (UK GDPR)</h2>
               <p>
                 Under UK GDPR, you have the following rights regarding your personal information:
               </p>
@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">8. Data Retention</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">8. Data Retention</h2>
               <p>
                 We will retain your personal information only for as long as necessary to fulfill the purposes 
                 outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
@@ -162,7 +162,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">9. Children's Privacy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">9. Children's Privacy</h2>
               <p>
                 Our Service is not intended for individuals under the age of 18. We do not knowingly collect 
                 personal information from children under 18. If you are a parent or guardian and believe your 
@@ -171,7 +171,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">10. Changes to This Privacy Policy</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">10. Changes to This Privacy Policy</h2>
               <p>
                 We may update our Privacy Policy from time to time. We will notify you of any changes by 
                 posting the new Privacy Policy on this page and updating the "Last updated" date.
@@ -183,18 +183,18 @@ export default function PrivacyPolicy() {
             </section>
 
             <section>
-              <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">11. Contact Us</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">11. Contact Us</h2>
               <p>
                 If you have any questions about this Privacy Policy or wish to exercise your rights, please 
                 contact us:
               </p>
               <div className="mt-3 bg-white/5 rounded-2xl p-4 border border-white/10">
-                <p className="font-semibold text-white">{BRAND.name}</p>
+                <p className="font-semibold text-[color:var(--foreground)]">{BRAND.name}</p>
                 <p>
                   Website:{" "}
                   <a
                     href={`https://${BRAND.domain}`}
-                    className="text-emerald-400 hover:text-emerald-300 underline"
+                    className="text-[color:var(--foreground)] underline hover:opacity-90"
                   >
                     {BRAND.domain}
                   </a>
