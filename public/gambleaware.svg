@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 56" fill="none" role="img" aria-labelledby="gaTitle">
+  <title id="gaTitle">GambleAware</title>
+  <!-- Transparent background; white + orange wordmark -->
+  <text
+    x="0"
+    y="40"
+    font-family="system-ui, Segoe UI, Arial, sans-serif"
+    font-size="34"
+    font-weight="800"
+  >
+    <tspan fill="#F8FAFC">Gamble</tspan><tspan fill="#F97316">Aware</tspan>
+  </text>
+</svg>

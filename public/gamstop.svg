@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" fill="none" role="img" aria-labelledby="gamstopTitle">
+  <title id="gamstopTitle">GAMSTOP</title>
+  <!-- Transparent background; badge-style mark aligned with common GAMSTOP presentation -->
+  <rect x="1" y="6" width="198" height="44" rx="10" stroke="#E2E8F0" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M11 11h78v34H11a5 5 0 0 1-5-5V16a5 5 0 0 1 5-5Z" fill="#38BDF8"/>
+  <path d="M89 11h100a5 5 0 0 1 5 5v24a5 5 0 0 1-5 5H89V11Z" fill="#0F172A"/>
+  <text x="50" y="38" text-anchor="middle" font-family="system-ui, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#0F172A">GAM</text>
+  <text x="139" y="38" text-anchor="middle" font-family="system-ui, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" fill="#F8FAFC">STOP</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" fill="none" role="img" aria-labelledby="gamcareTitle">
+  <title id="gamcareTitle">GamCare</title>
+  <rect x="0" y="8" width="48" height="48" rx="11" fill="#5B21B6"/>
+  <text x="24" y="42" text-anchor="middle" font-family="system-ui, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#FAF5FF">G</text>
+  <text x="60" y="38" font-family="system-ui, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#F8FAFC">GamCare</text>
+  <text x="60" y="54" font-family="system-ui, Segoe UI, Arial, sans-serif" font-size="7" font-weight="600" fill="#CBD5E1" letter-spacing="0.06em">FOUNDER OF THE NATIONAL GAMBLING HELPLINE</text>
+</svg>
