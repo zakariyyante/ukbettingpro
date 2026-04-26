@@ -1,17 +1,17 @@
-# UK Casino Comparison Site
+# UK Betting Comparison Site
 
-A Next.js-based online casino comparison website for UK users, featuring compact card designs and Google policy-compliant content.
+A Next.js-based UK betting site comparison website, featuring compact card designs and responsible-gambling content.
 
 ## Features
 
 - ✅ **Modern UI**: Clean, responsive design with Tailwind CSS
 - ✅ **Compact Card Design**: Logo, star ratings (9.9 decreasing), bonus text, and CTA button
-- ✅ **Mock Data**: 10 casino brands with realistic bonus offers
-- ✅ **Google Policy Compliant**: 
+- ✅ **Mock Data**: Sample operator brands with realistic welcome offers
+- ✅ **Responsible Gambling**: 
   - 18+ age restrictions
   - Responsible gambling disclaimers
   - Links to gambling support organizations (BeGambleAware, GamCare)
-  - UK Gambling Commission licensing emphasis
+  - UK licensing emphasis
   - No deceptive or misleading claims
 - ✅ **Responsive Design**: Works on mobile, tablet, and desktop
 - ✅ **Performance**: Built with Next.js 14+ and Turbopack
@@ -57,9 +57,9 @@ casino-comparison/
 └── README.md
 ```
 
-## Casino Card Design
+## Card Design
 
-Each casino card includes:
+Each card includes:
 - **Logo**: Brand image on the left
 - **Badge** (optional): "Best Bonus", "Trending Now", etc.
 - **Bonus Text**: Promotional offer details
@@ -113,10 +113,10 @@ Update Tailwind classes in components or modify `tailwind.config.ts` for theme c
 
 ## Important Notes
 
-- **Mock Data**: This uses placeholder data. Replace with real casino information.
-- **URLs**: Update URLs with actual casino/affiliate links.
-- **Images**: Replace placeholder images with real casino logos.
-- **Legal Review**: Ensure all content complies with UK gambling advertising regulations.
+- **Mock Data**: This uses placeholder data. Replace with real operator information.
+- **URLs**: Update URLs with actual operator/affiliate links.
+- **Images**: Replace placeholder images with real brand logos.
+- **Legal Review**: Ensure all content complies with UK advertising regulations.
 - **Affiliate Disclosure**: Add proper disclosure if using affiliate links.
 
 ## Technologies Used
@@ -133,8 +133,8 @@ For educational purposes only. Ensure compliance with local gambling advertising
 
 ## Disclaimer
 
-This is a demonstration project. All casino information is mock data. Real implementation should:
-- Verify all casino licenses with UK Gambling Commission
+This is a demonstration project. All operator information is mock data. Real implementation should:
+- Verify all operator licenses with the relevant regulator
 - Include proper affiliate disclosures
 - Follow all UK gambling advertising regulations
 - Implement proper age verification

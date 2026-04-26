@@ -23,8 +23,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#casinos" className="underline underline-offset-2 decoration-[#020A16] hover:opacity-90 transition-opacity">
-                  Casinos
+                <a href="#bookmakers" className="underline underline-offset-2 decoration-[#020A16] hover:opacity-90 transition-opacity">
+                  Bookmakers
                 </a>
               </li>
             </ul>
@@ -52,9 +52,7 @@ export default function Footer() {
           <div className="col-span-2">
             <h5 className="text-[color:var(--foreground)] font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Disclaimer</h5>
             <p className="text-[color:var(--foreground)]/65 text-xs sm:text-sm leading-relaxed">
-              We publish independent comparisons and editorial content. All listed casinos are regulated by the UK Gambling Commission. Always check terms with the operator
-              before you play. Gambling should be fun. That's why you set limits and never stake more than you can afford to
-              lose.
+              We publish independent comparisons and editorial content. Always check terms with the operator before you place a bet. Gambling should be fun — set limits and never stake more than you can afford to lose.
             </p>
           </div>
         </div>

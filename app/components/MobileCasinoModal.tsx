@@ -36,10 +36,10 @@ export default function MobileCasinoModal({ mobileCasinos, isOnline, gclidValue 
         <div className="bg-[color:var(--surface-1)] border-b border-blue-500/10 px-4 sm:px-6 py-3 sm:py-4 backdrop-blur">
           <div className="container mx-auto">
             <h1 className="text-lg sm:text-xl lg:text-2xl font-extrabold text-[color:var(--foreground)] mb-1">
-              {isOnline ? `Top UK Casino Sites ${BRAND.year}` : `New Casino Sites ${BRAND.year}`}
+              {isOnline ? `Top UK Betting Sites ${BRAND.year}` : `New UK Betting Sites ${BRAND.year}`}
             </h1>
             <h2 className="text-left sm:text-xl font-extrabold text-[color:var(--foreground)] mb-1">
-              {isOnline ? 'Exclusive welcome offers with same-day withdrawals at the UK\'s highest-rated platforms.' : 'Browse the top-rated casinos across the UK'}
+              {isOnline ? "Exclusive welcome offers and promos at the UK's highest-rated operators." : "Browse top-rated betting sites across the UK"}
             </h2>
           </div>
         </div>

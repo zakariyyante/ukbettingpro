@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(`https://${BRAND.domain}`),
   title: `${BRAND.name} - ${BRAND.tagline} UK ${BRAND.year}`,
   description:
-    "Discover the UK's finest online casinos. Expert-rated, UKGC licensed platforms with exclusive bonuses, fast withdrawals, and premium gaming.",
+    "Compare UK betting sites and bookmaker offers. Independent picks, promotion highlights, and responsible gambling signposting.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: BRAND.name,
     title: `${BRAND.name} - ${BRAND.tagline} UK ${BRAND.year}`,
     description:
-      "Discover the UK's finest online casinos. Expert-rated, UKGC licensed platforms with exclusive bonuses, fast withdrawals, and premium gaming.",
+      "Compare UK betting sites and bookmaker offers. Independent picks, promotion highlights, and responsible gambling signposting.",
   },
 };
 

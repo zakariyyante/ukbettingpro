@@ -39,7 +39,7 @@ export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCar
       return (
         <Image 
           src={casino.logo} 
-          alt={`${casino.name} Casino`} 
+          alt={casino.name} 
           width={260} 
           height={180} 
           className="h-full w-full object-contain"

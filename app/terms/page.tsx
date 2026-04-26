@@ -4,7 +4,7 @@ import { BRAND } from "../config/brand";
 
 export const metadata = {
   title: `Terms of Service - ${BRAND.name}`,
-  description: `Terms of Service for ${BRAND.name}. Read our terms and conditions for using our casino comparison website.`,
+  description: `Terms of Service for ${BRAND.name}. Read our terms and conditions for using our betting comparison website.`,
 };
 
 export default function TermsOfService() {
@@ -36,17 +36,17 @@ export default function TermsOfService() {
               <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">2. Description of Service</h2>
               <p>
                 {BRAND.name} is an information and comparison website that provides reviews, ratings, and 
-                information about online casino operators. We are an independent comparison service and do not 
-                operate any gambling services ourselves.
+                information about UK betting sites and licensed operators. We are an independent comparison service and do not 
+                operate any betting or gambling services ourselves.
               </p>
               <p className="mt-3">
                 Our Service includes:
               </p>
               <ul className="list-disc list-inside ml-4 space-y-2 mt-2">
-                <li>Casino reviews and ratings</li>
-                <li>Comparison of casino features, bonuses, and services</li>
-                <li>Educational content about online gambling</li>
-                <li>Links to third-party casino operators</li>
+                <li>Bookmaker reviews and ratings</li>
+                <li>Comparison of promotions, key terms, and features</li>
+                <li>Educational content about betting and responsible gambling</li>
+                <li>Links to third-party operators</li>
               </ul>
             </section>
 
@@ -81,16 +81,16 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">5. Third-Party Links and Services</h2>
               <p>
-                Our Service contains links to third-party websites, including online casino operators. We are 
+                Our Service contains links to third-party websites, including betting and gaming operators. We are 
                 not responsible for the content, privacy policies, or practices of any third-party websites.
               </p>
               <p className="mt-3">
-                When you click on links to third-party casinos, you will leave our Website and be subject to 
+                When you click on links to third-party operators, you will leave our Website and be subject to 
                 the terms and conditions and privacy policies of those third-party websites. We encourage you 
                 to review the terms and privacy policies of any third-party websites you visit.
               </p>
               <p className="mt-3">
-                We may receive compensation from casino operators when you click on links or sign up through 
+                We may receive compensation from operators when you click on links or sign up through 
                 our Service. This does not affect our editorial independence or the accuracy of our reviews.
               </p>
             </section>
@@ -109,7 +109,7 @@ export default function TermsOfService() {
                 <li>The information on this Website is complete, accurate, or up-to-date</li>
                 <li>The Website will be available at all times or free from errors</li>
                 <li>The Website is free from viruses or other harmful components</li>
-                <li>Any casino operator will meet your expectations or requirements</li>
+                <li>Any operator will meet your expectations or requirements</li>
               </ul>
             </section>
 
@@ -127,7 +127,7 @@ export default function TermsOfService() {
                 <li>Any unauthorized access to or use of our servers</li>
                 <li>Any interruption or cessation of transmission to or from the Service</li>
                 <li>Any bugs, viruses, or similar items transmitted through the Service</li>
-                <li>Any gambling losses incurred at third-party casino operators</li>
+                <li>Any betting or gambling losses incurred at third-party operators</li>
               </ul>
             </section>
 
@@ -177,7 +177,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-[color:var(--foreground)] mb-4">10. Affiliate Disclosure</h2>
               <p>
-                {BRAND.name} may receive compensation from casino operators when users click on links or 
+                {BRAND.name} may receive compensation from operators when users click on links or 
                 sign up through our Service. This compensation helps us maintain and improve our Service.
               </p>
               <p className="mt-3">

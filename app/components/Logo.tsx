@@ -7,7 +7,14 @@ interface LogoProps {
 export default function Logo({ className = "" }: LogoProps) {
   return (
     <div className={`flex items-center gap-2.5 ${className}`}>
-      <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Casino logo">
+      <svg
+        width="38"
+        height="38"
+        viewBox="0 0 38 38"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-label={`${BRAND.name} logo`}
+      >
         <defs>
           <linearGradient id="logoMark" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stopColor="var(--primary-2)"/>

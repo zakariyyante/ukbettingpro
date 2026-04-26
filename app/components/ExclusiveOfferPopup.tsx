@@ -64,7 +64,7 @@ export default function ExclusiveOfferPopup({ casino, isOnline, gclidValue = '',
       return (
         <Image
           src={casino.logo}
-          alt={`${casino.name} Casino`}
+          alt={casino.name}
           width={200}
           height={80}
           className="w-full h-full object-contain"

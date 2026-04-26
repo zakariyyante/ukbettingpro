@@ -10,8 +10,8 @@ export default function Header() {
   const navLinks = [
     { name: 'About', href: '/#about' },
     { name: 'Contact', href: '/#contact' },
-    { name: 'Casinos', href: '/#casinos' },
-    { name: 'Reviews', href: '/#casinos' },
+    { name: 'Bookmakers', href: '/#bookmakers' },
+    { name: 'Reviews', href: '/#bookmakers' },
     { name: 'FAQ', href: '/#guide' },
   ];
 
