@@ -69,7 +69,7 @@ const casinosRawData: CasinoRaw[] = [
     name: "DaytonaSpin",
     logo: "/daytonaspin.svg",
     bonus: "255% UP TO £4500 + 255 FREE SPINS",
-    url: "https://daytona.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=daytona",
+    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
     votes: 5872,
     isMobile: true
   },
@@ -77,7 +77,7 @@ const casinosRawData: CasinoRaw[] = [
       name: "Westace",
       logo: "/westace.webp",
       bonus: "300% UP TO €2000 + 150 FREE SPINS",
-      url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
+      url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
       votes: 5872,
       isMobile: true
     },
@@ -86,7 +86,7 @@ const casinosRawData: CasinoRaw[] = [
       name: "Spinboss",
       logo: "/spinboss.webp",
       bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
-      url: "https://spinboss.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=spinboss",
+      url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
       votes: 5872,
       isMobile: true
     },
@@ -94,7 +94,7 @@ const casinosRawData: CasinoRaw[] = [
     name: "Lolajack",
     logo: "/lolajack.webp",
     bonus: "400% UP TO €15,000 + 400 FREE SPINS",
-    url: "https://lolajack.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lolajack",
+    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
     votes: 5872,
     isMobile: true
   },
@@ -103,7 +103,7 @@ const casinosRawData: CasinoRaw[] = [
     name: "Lizaro",
     logo: "/lizaro.png",
     bonus: "200% up to £1000 + 250 FREE SPINS",
-    url: "https://lizaro.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lizaro",
+    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
     votes: 5872,
     isMobile: true
   },
@@ -112,7 +112,7 @@ const casinosRawData: CasinoRaw[] = [
     name: "X3Bet",
     logo: "/x3bet.svg",
     bonus: "100% UP TO €600 + 200 FREE SPINS",
-    url: "https://x3bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=x3bet",
+    url: "https://x3bet.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=x3bet",
     votes: 5872,
     isMobile: true
   },
