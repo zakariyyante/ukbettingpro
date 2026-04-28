@@ -27,7 +27,7 @@ export default async function Home({ searchParams }: PageProps) {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative container mx-auto px-4 pt-10 sm:pt-14 lg:pt-16 pb-10 sm:pb-14 text-center">
+      <section className="relative container mx-auto px-4 sm:pt-10 sm:pt-14 lg:pt-16 sm:pb-10 sm:pb-14 text-center">
         <div className="mx-auto max-w-5xl rounded-3xl border border-white/10 bg-gradient-to-b from-[color:var(--surface-1)]/70 to-transparent px-5 sm:px-10 py-10 sm:py-14">
           <p className="text-[color:var(--foreground)]/70 text-xs sm:text-sm tracking-wide">
             Updated for {year} • UK-focused comparisons
@@ -43,15 +43,8 @@ export default async function Home({ searchParams }: PageProps) {
 
       {/* Casino Cards Section */}
       <section id="bookmakers" className="bg-[color:var(--surface-1)]/10 border-y border-white/5">
-        <div className="container mx-auto px-4 pb-16 pt-10 sm:pt-12">
-          <div className="mb-6 sm:mb-8 text-center">
-            <h2 className="text-xl sm:text-2xl lg:text-4xl font-extrabold text-[color:var(--foreground)] tracking-wide">
-              Leading UK bookmaker offers
-            </h2>
-            <p className="mt-2 text-sm sm:text-base text-[color:var(--foreground)]/65">
-              Hand-picked options with clear pros, welcome offers, and key terms — refreshed regularly.
-            </p>
-          </div>
+        <div className="container mx-auto px-4 pb-16 pt-2 sm:pt-12">
+        
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-7xl mx-auto">
             {regularCasinos.map((casino, index) => (

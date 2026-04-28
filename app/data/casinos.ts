@@ -66,21 +66,73 @@ const casinosRawData: CasinoRaw[] = [
 
   // Mobile modal (only when ?gclid= present)
   {
-    name: "Basswin",
-    logo: "/basswin.svg",
-    bonus: "GET UP TO £3,000 + 300 FREE SPINS",
-    url: "https://example-affiliate.com/?offer=basswin",
-    votes: 5771,
-    isMobile: true,
+    name: "DaytonaSpin",
+    logo: "/daytonaspin.svg",
+    bonus: "255% UP TO £4500 + 255 FREE SPINS",
+    url: "https://daytona.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=daytona",
+    votes: 5872,
+    isMobile: true
   },
   {
-    name: "SpinShark",
-    logo: "/spinshark.svg",
-    bonus: "UP TO £900 BONUS + 150 FREE SPINS",
-    url: "https://example-affiliate.com/?offer=spinshark",
-    votes: 4622,
-    isMobile: true,
+      name: "Westace",
+      logo: "/westace.webp",
+      bonus: "300% UP TO €2000 + 150 FREE SPINS",
+      url: "https://westace.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=westace",
+      votes: 5872,
+      isMobile: true
+    },
+  
+    {
+      name: "Spinboss",
+      logo: "/spinboss.webp",
+      bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
+      url: "https://spinboss.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=spinboss",
+      votes: 5872,
+      isMobile: true
+    },
+  {
+    name: "Lolajack",
+    logo: "/lolajack.webp",
+    bonus: "400% UP TO €15,000 + 400 FREE SPINS",
+    url: "https://lolajack.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lolajack",
+    votes: 5872,
+    isMobile: true
   },
+  
+  {
+    name: "Lizaro",
+    logo: "/lizaro.png",
+    bonus: "200% up to £1000 + 250 FREE SPINS",
+    url: "https://lizaro.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=lizaro",
+    votes: 5872,
+    isMobile: true
+  },
+
+  {
+    name: "X3Bet",
+    logo: "/x3bet.svg",
+    bonus: "100% UP TO €600 + 200 FREE SPINS",
+    url: "https://x3bet.muforaset.live?sub_id_1=t4p6a0wbej43uo&utm_source=x3bet",
+    votes: 5872,
+    isMobile: true
+  },
+
+  // {
+  //   name: "Basswin",
+  //   logo: "/basswin.svg",
+  //   bonus: "GET UP TO £3,000 + 300 FREE SPINS",
+  //   url: "https://example-affiliate.com/?offer=basswin",
+  //   votes: 5771,
+  //   isMobile: true,
+  // },
+  // {
+  //   name: "SpinShark",
+  //   logo: "/spinshark.svg",
+  //   bonus: "UP TO £900 BONUS + 150 FREE SPINS",
+  //   url: "https://example-affiliate.com/?offer=spinshark",
+  //   votes: 4622,
+  //   isMobile: true,
+  // },
 ];
 
 export const casinos: Casino[] = casinosRawData.map((casino, index) => {

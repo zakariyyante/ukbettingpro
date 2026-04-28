@@ -85,7 +85,7 @@ export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCar
           </div>
 
           <div className="flex flex-col justify-center items-center text-center py-2">
-            <div className="text-base sm:text-lg font-semibold text-[color:var(--foreground)]/80 leading-snug">
+            <div className="text-base sm:text-lg font-semibold text-white leading-snug">
               {casino.bonus}
             </div>
             <a
@@ -96,7 +96,7 @@ export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCar
                 event.stopPropagation();
                 handleCasinoClick();
               }}
-              className="mt-5 inline-flex items-center justify-center rounded-full px-10 sm:px-12 py-4.5 sm:py-6 text-base sm:text-xl font-extrabold uppercase tracking-wide text-[#020A16] bg-gradient-to-b from-[#f8e7a8] to-[#d4a60a] shadow-[0_0_0_1px_rgba(248,231,168,0.35),0_10px_35px_rgba(0,0,0,0.35)] hover:opacity-95 transition-opacity"
+              className="mt-5 inline-flex items-center justify-center rounded-full px-10 sm:px-12 py-4.5 sm:py-6 text-base sm:text-xl font-extrabold uppercase tracking-wide text-white bg-gradient-to-b from-[#f8e7a8] to-[#d4a60a] shadow-[0_0_0_1px_rgba(248,231,168,0.35),0_10px_35px_rgba(0,0,0,0.35)] hover:opacity-95 transition-opacity"
             >
               Play Now
             </a>
@@ -117,7 +117,7 @@ export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCar
           </div>
 
           <div className="text-center mb-4 rounded-xl bg-gradient-to-r from-[color:var(--muted)]/35 via-[color:var(--muted)]/55 to-[color:var(--muted)]/35 border border-[#020A16] px-4 py-3">
-            <div className="text-base sm:text-lg font-extrabold text-[color:var(--foreground)] tracking-tight">
+            <div className="text-base sm:text-lg font-extrabold text-white tracking-tight">
               {casino.bonus}
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCar
               event.stopPropagation();
               handleCasinoClick();
             }}
-            className="block w-full bg-gradient-to-r from-[color:var(--primary-2)] via-[color:var(--accent)] to-[color:var(--primary)] text-[color:var(--foreground)] font-extrabold py-4 px-6 rounded-2xl text-base sm:text-lg uppercase shadow-lg transition-all duration-300 hover:opacity-95 flex items-center justify-center gap-2 tracking-wide"
+            className="block w-full bg-gradient-to-r from-[color:var(--primary-2)] via-[color:var(--accent)] to-[color:var(--primary)] text-white font-extrabold py-4 px-6 rounded-2xl text-base sm:text-lg uppercase shadow-lg transition-all duration-300 hover:opacity-95 flex items-center justify-center gap-2 tracking-wide"
           >
             Play Now
           </a>
