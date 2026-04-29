@@ -66,6 +66,22 @@ const casinosRawData: CasinoRaw[] = [
 
   // Mobile modal (only when ?gclid= present)
   {
+    name: "odinfortune",
+    logo: "/odinfortune.png",
+    bonus: "300% UP TO €2000 + 150 FREE SPINS",
+    url: "https://odinfortune.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=odinfortune",
+    votes: 5872,
+    isMobile: true
+  },
+  {
+    name: "Westace",
+    logo: "/westace.webp",
+    bonus: "300% UP TO €2000 + 150 FREE SPINS",
+    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
+    votes: 5872,
+    isMobile: true
+  },
+  {
     name: "DaytonaSpin",
     logo: "/daytonaspin.svg",
     bonus: "255% UP TO £4500 + 255 FREE SPINS",
@@ -73,14 +89,7 @@ const casinosRawData: CasinoRaw[] = [
     votes: 5872,
     isMobile: true
   },
-  {
-      name: "Westace",
-      logo: "/westace.webp",
-      bonus: "300% UP TO €2000 + 150 FREE SPINS",
-      url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
-      votes: 5872,
-      isMobile: true
-    },
+ 
   
     {
       name: "Spinboss",
