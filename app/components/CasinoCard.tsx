@@ -17,11 +17,7 @@ export default function CasinoCard({ casino, rank, isOnline = false }: CasinoCar
     casino.name === "Barz" || casino.name === "Spinland" || casino.name === "Karamba";
 
   const handleCasinoClick = () => {
-    if (casino.isMobile) {
-      track('Casino Click', {
-        casino: casino.name
-      });
-    }
+    track('Casino Click', { brand: casino.name });
   };
   const handleCardClick = () => {
     handleCasinoClick();
