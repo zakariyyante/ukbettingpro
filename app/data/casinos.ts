@@ -42,6 +42,13 @@ const hashId = (input: string): string => {
 // Raw casino data: do not set id/rating/badge manually.
 const casinosRawData: CasinoRaw[] = [
   // Homepage grid (regular casinos)
+//   https://westace.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=westace
+// https://spinboss.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=spinboss
+// https://lolajack.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=lolajack
+// https://lizaro.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=lizaro
+//  https://x3bet.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=x3bet
+// https://odinfortune.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=odinfortune
+// https://sankra.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=sankra",
   {
     name: "Barz",
     logo: "/barz.webp",
@@ -77,7 +84,7 @@ const casinosRawData: CasinoRaw[] = [
     name: "Westace",
     logo: "/westace.webp",
     bonus: "300% UP TO €2000 + 150 FREE SPINS",
-    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
+    url: "https://westace.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=westace",
     votes: 5872,
     isMobile: true
   },
@@ -95,7 +102,7 @@ const casinosRawData: CasinoRaw[] = [
       name: "Spinboss",
       logo: "/spinboss.webp",
       bonus: "400% up to 12750 GBP + 400 FREE SPINS:",
-      url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
+      url: "https://spinboss.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=spinboss",
       votes: 5872,
       isMobile: true
     },
@@ -103,7 +110,7 @@ const casinosRawData: CasinoRaw[] = [
     name: "Lolajack",
     logo: "/lolajack.webp",
     bonus: "400% UP TO €15,000 + 400 FREE SPINS",
-    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
+    url: "https://lolajack.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=lolajack",
     votes: 5872,
     isMobile: true
   },
