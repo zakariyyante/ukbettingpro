@@ -108,23 +108,23 @@ const casinosRawData: CasinoRaw[] = [
     isMobile: true
   },
   
-  {
-    name: "Lizaro",
-    logo: "/lizaro.png",
-    bonus: "200% up to £1000 + 250 FREE SPINS",
-    url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "Lizaro",
+  //   logo: "/lizaro.png",
+  //   bonus: "200% up to £1000 + 250 FREE SPINS",
+  //   url: "https://daytonaspin.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=daytona",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
-  {
-    name: "X3Bet",
-    logo: "/x3bet.svg",
-    bonus: "100% UP TO €600 + 200 FREE SPINS",
-    url: "https://x3bet.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=x3bet",
-    votes: 5872,
-    isMobile: true
-  },
+  // {
+  //   name: "X3Bet",
+  //   logo: "/x3bet.svg",
+  //   bonus: "100% UP TO €600 + 200 FREE SPINS",
+  //   url: "https://x3bet.cowgramslp.live?sub_id_1=5nttr97thxorpm&utm_source=x3bet",
+  //   votes: 5872,
+  //   isMobile: true
+  // },
 
   // {
   //   name: "Basswin",
